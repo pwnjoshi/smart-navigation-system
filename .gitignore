@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Java / Spring Boot
+backend/target/
+backend/.mvn/
+backend/.gradle/
+backend/build/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Env files
+.env
+.env.*
+!.env.example
