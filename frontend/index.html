@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Navigation</title>
+</head>
+<body>
+
+<h2>Campus Navigation</h2>
+
+<label>Source:</label>
+<input type="text" id="source"><br><br>
+
+<label>Destination:</label>
+<input type="text" id="destination"><br><br>
+
+<button onclick="getRoute()">Find Route</button>
+
+<h3>Result:</h3>
+<p id="output"></p>
+
+<script>
+function getRoute() {
+    let source = document.getElementById("source").value;
+    let destination = document.getElementById("destination").value;
+
+    fetch(`http://localhost:8080/route?source=${source}&destination=${destination}`)
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById("output").innerText =
+                "Path: " + data.path.join(" → ") +
+                "\nDistance: " + data.distance;
+        });
+}
+</script>
+
+</body>
+</html>
