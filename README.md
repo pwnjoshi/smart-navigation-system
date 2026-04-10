@@ -56,3 +56,29 @@ smart-navigation-system/
 - Build a minimal frontend UI for route requests
 - Connect frontend and backend through navigation endpoints
 - Add test data and validate sample campus routes
+
+## Deploy To Render
+This repository includes files needed for Render deployment:
+- `render.yaml` (Render Blueprint)
+- `backend/Dockerfile` (container build)
+
+### Option 1: Blueprint Deploy (recommended)
+1. Push this repository to GitHub.
+2. In Render dashboard, click **New** -> **Blueprint**.
+3. Select this repository.
+4. Render reads `render.yaml` and creates service `smart-navigation-backend`.
+
+### Option 2: Manual Web Service
+1. In Render dashboard, click **New** -> **Web Service**.
+2. Connect this repository.
+3. Runtime: **Docker**.
+4. Root/Context: `backend`.
+5. Dockerfile path: `backend/Dockerfile`.
+
+### Runtime Notes
+- Spring Boot port is configured as `server.port=${PORT:8080}` for Render compatibility.
+- Health check endpoint: `/api/hello`.
+- App endpoints example:
+	- `/index.html`
+	- `/api/hello`
+	- `/route?source=A101&destination=PARK`

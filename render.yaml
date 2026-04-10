@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: smart-navigation-backend
+    runtime: docker
+    plan: free
+    dockerContext: backend
+    dockerfilePath: backend/Dockerfile
+    autoDeploy: true
+    healthCheckPath: /api/hello
