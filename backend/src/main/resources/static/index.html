@@ -330,7 +330,6 @@
             </div>
         </div>
         <div>
-            <h2>Try Live Demo</h2>
             <div class="controls">
                 <div>
                     <label class="label" for="source">Source</label>
@@ -361,35 +360,9 @@
                 <button class="btn btn-primary" id="findBtn" type="button">Find Best Route</button>
             </div>
             <div id="result" class="result">Loading nodes...</div>
-            <div class="warning">Tip: keep backend running on port 8080 for live routing.</div>
         </div>
     </section>
 
-    <section class="panel">
-        <h2>Team Roles</h2>
-        <div class="grid">
-            <article class="card">
-                <h3>Dev 1: Graph and Data Manager</h3>
-                <p>Maintains graph JSON, node catalog, and graph APIs.</p>
-                <div class="mono">GET /nodes\nGET /graph</div>
-            </article>
-            <article class="card">
-                <h3>Dev 2: Dijkstra Engine</h3>
-                <p>Implements weighted shortest path and indoor or outdoor filters.</p>
-                <div class="mono">GET /route?source=A&destination=D&mode=MIXED</div>
-            </article>
-            <article class="card">
-                <h3>Dev 3: BFS and Smart Filters</h3>
-                <p>Builds minimum-hop routing with avoid-stairs support.</p>
-                <div class="mono">GET /route-unweighted?source=A&destination=D</div>
-            </article>
-            <article class="card">
-                <h3>Dev 4: Integration and UI</h3>
-                <p>Unifies API calls and delivers final user experience.</p>
-                <div class="mono">GET /navigate?source=A&destination=D&type=shortest</div>
-            </article>
-        </div>
-    </section>
 </main>
 
 <script>
