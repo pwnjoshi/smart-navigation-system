@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {"id": "GEU Santoshanand Library", "category": "Building", "x": 0.35, "y": 0.35, "floor": 1},
+    {"id": "GEU CSIT Building", "category": "Building", "x": 0.10, "y": 0.05, "floor": 1},
+    {"id": "GEU Civil Block", "category": "Building", "x": 0.30, "y": 0.40, "floor": 1},
+    {"id": "GEU Quick Bite", "category": "Cafe", "x": 0.40, "y": 0.45, "floor": 1},
+    {"id": "GEU Mechanical Block", "category": "Building", "x": 0.55, "y": 0.60, "floor": 1},
+    {"id": "GEU Convention Centre", "category": "Building", "x": 0.50, "y": 0.55, "floor": 1},
+    {"id": "GEU Chanakya Block", "category": "Building", "x": 0.70, "y": 0.50, "floor": 1},
+    {"id": "GEU KP Nautiyal Block", "category": "Building", "x": 0.75, "y": 0.45, "floor": 1},
+    {"id": "GEU Petroleum Block", "category": "Building", "x": 0.78, "y": 0.40, "floor": 1},
+    {"id": "GEU Param Computer Centre", "category": "Building", "x": 0.60, "y": 0.37, "floor": 1},
+    {"id": "GEU Aryabhatta Computer Center", "category": "Building", "x": 0.55, "y": 0.35, "floor": 1},
+    {"id": "GEU Admission Office", "category": "Building", "x": 0.50, "y": 0.30, "floor": 1},
+    {"id": "GEU International Office", "category": "Building", "x": 0.52, "y": 0.31, "floor": 1},
+    {"id": "GEU Btech Block", "category": "Building", "x": 0.45, "y": 0.28, "floor": 1},
+    {"id": "GEU CSIT through tunnel", "category": "Path", "x": 0.35, "y": 0.38, "floor": 1},
+
+    {"id": "GEU Gate 2", "category": "Landmark", "x": 0.90, "y": 0.70, "floor": 1},
+    {"id": "GEU Bus Parking", "category": "Landmark", "x": 0.88, "y": 0.65, "floor": 1},
+
+    {"id": "GEU Boys Hostel", "category": "Building", "x": 0.35, "y": 0.28, "floor": 1},
+    {"id": "GEU Girls Hostel", "category": "Building", "x": 0.25, "y": 0.40, "floor": 1},
+    {"id": "GEU Priyadarshini Hostel", "category": "Building", "x": 0.65, "y": 0.48, "floor": 1},
+    {"id": "GEU President Estate", "category": "Building", "x": 0.60, "y": 0.42, "floor": 1},
+
+    {"id": "GEU Biotech Block", "category": "Building", "x": 0.60, "y": 0.55, "floor": 1},
+    {"id": "GEU Paramedical Block", "category": "Building", "x": 0.50, "y": 0.40, "floor": 1},
+
+    {"id": "GEU Ravi Canteen", "category": "Cafe", "x": 0.48, "y": 0.32, "floor": 1},
+    {"id": "GEU Happiness Cafe", "category": "Cafe", "x": 0.50, "y": 0.315, "floor": 1},
+    {"id": "GEU Cafe and Gym", "category": "Cafe", "x": 0.42, "y": 0.30, "floor": 1},
+
+    {"id": "GEU Gym", "category": "Building", "x": 0.50, "y": 0.325, "floor": 1},
+
+    {"id": "GEU Main Ground", "category": "Ground", "x": 0.40, "y": 0.25, "floor": 1},
+    {"id": "GEU Indoor Badminton Court", "category": "Ground", "x": 0.45, "y": 0.22, "floor": 1},
+    {"id": "GEU Basketball Court", "category": "Ground", "x": 0.55, "y": 0.26, "floor": 1},
+
+    {"id": "GEU Dispensary", "category": "Medical", "x": 0.50, "y": 0.43, "floor": 1},
+
+    {"id": "GEU Bell Road", "category": "Path", "x": 0.45, "y": 0.50, "floor": 1},
+    {"id": "GEU Internal Road 1", "category": "Path", "x": 0.50, "y": 0.40, "floor": 1},
+    {"id": "GEU Internal Road 2", "category": "Path", "x": 0.60, "y": 0.35, "floor": 1},
+
+    {"id": "St Paul High School", "category": "External", "x": 0.85, "y": 0.75, "floor": 1},
+    {"id": "St Paul Hospital", "category": "External", "x": 0.92, "y": 0.78, "floor": 1},
+    {"id": "St Mary Church", "category": "External", "x": 0.90, "y": 0.72, "floor": 1},
+    {"id": "Post Office", "category": "External", "x": 0.88, "y": 0.70, "floor": 1}
+  ],
+  "edges": []
+}
