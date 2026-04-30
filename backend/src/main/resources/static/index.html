@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Campus Navigation – GEU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Sora:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+:root {
+  --bg: #f0f6ff; --ink: #0f1e36; --soft: #3a5278;
+  --brand: #1565c0; --brand2: #00897b; --card: #ffffff;
+  --border: #c8daee; --red: #e53935; --amber: #f57c00;
+  --green: #2e7d32; --indoor-bg: #fff8e1; --indoor-border: #ffe082;
+  --radius: 16px; --shadow: 0 8px 32px rgba(15,30,60,0.12);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Outfit", sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; }
+.app { display: grid; grid-template-columns: 380px 1fr; grid-template-rows: auto 1fr; min-height: 100vh; }
+.top-bar { grid-column: 1/-1; background: var(--brand); color: #fff; padding: 14px 24px; display:flex; align-items:center; gap:14px; box-shadow: 0 2px 10px rgba(0,0,0,0.2); z-index:100; }
+.top-bar h1 { font-family:"Sora",sans-serif; font-size:20px; font-weight:700; }
+.top-bar .badge { background: rgba(255,255,255,0.18); border-radius:999px; padding:3px 10px; font-size:11px; font-weight:600; letter-spacing:.06em; }
+.sidebar { background: var(--card); border-right: 1px solid var(--border); overflow-y:auto; display:flex; flex-direction:column; gap:0; }
+.map-area { position:relative; }
+#map { width:100%; height:100%; min-height:400px; }
+.s-section { padding:18px 18px 0; }
+.s-section:last-child { padding-bottom:18px; }
+.s-title { font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--soft); margin-bottom:10px; }
+.field-row { display:flex; flex-direction:column; gap:6px; margin-bottom:12px; }
+.field-row label { font-size:12px; font-weight:600; color:var(--soft); }
+select { width:100%; padding:10px 12px; border:1.5px solid var(--border); border-radius:10px; font-size:14px; font-family:"Outfit",sans-serif; background:#fff; color:var(--ink); outline:none; cursor:pointer; }
+select:focus { border-color:var(--brand); }
+.mode-tabs { display:flex; gap:6px; }
+.mode-tab { flex:1; padding:8px; border:1.5px solid var(--border); border-radius:8px; font-size:12px; font-weight:600; cursor:pointer; background:#fff; color:var(--soft); text-align:center; transition:.15s; }
+.mode-tab.active { background:var(--brand); color:#fff; border-color:var(--brand); }
+.toggle-row { display:flex; align-items:center; gap:8px; margin-bottom:12px; font-size:13px; }
+.toggle-row label { cursor:pointer; }
+.btn-go { width:100%; padding:13px; background:var(--brand); color:#fff; border:none; border-radius:12px; font-size:15px; font-weight:700; cursor:pointer; font-family:"Outfit",sans-serif; transition:.15s; margin-top:4px; }
+.btn-go:hover { background:#1976d2; }
+.btn-go:active { transform:scale(.98); }
+.summary-card { background:linear-gradient(135deg,#e3f2fd,#e8f5e9); border:1.5px solid var(--border); border-radius:14px; padding:14px 16px; display:flex; gap:18px; margin-top:14px; }
+.summary-stat { flex:1; text-align:center; }
+.summary-stat .val { font-size:22px; font-weight:800; color:var(--brand); }
+.summary-stat .lbl { font-size:11px; color:var(--soft); font-weight:600; margin-top:2px; }
+.dir-list { display:flex; flex-direction:column; gap:6px; }
+.dir-step { display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:10px; border:1px solid #e0eaf5; background:#f8fbff; font-size:13px; }
+.dir-step.start  { background:#e3f2fd; border-color:#90caf9; }
+.dir-step.arrive { background:#e8f5e9; border-color:#a5d6a7; }
+.dir-step.stairs { background:#fff8e1; border-color:#ffe082; }
+.dir-step.indoor { background:#fce4ec; border-color:#f48fb1; }
+.dir-step .step-num { min-width:24px; height:24px; border-radius:50%; background:var(--brand); color:#fff; font-size:11px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.dir-step.arrive .step-num { background:var(--green); }
+.dir-step.stairs .step-num { background:var(--amber); }
+.dir-step .text { flex:1; }
+.dir-step .text strong { display:block; font-weight:600; margin-bottom:2px; }
+.dir-step .text .sub { font-size:11px; color:var(--soft); }
+.dir-step .dist { font-size:11px; color:var(--soft); background:#e0eaf5; padding:2px 7px; border-radius:999px; white-space:nowrap; align-self:center; }
+.indoor-panel { position:absolute; bottom:0; left:0; right:0; background:var(--card); border-top:2px solid var(--indoor-border); border-radius:16px 16px 0 0; padding:18px; max-height:55%; overflow-y:auto; z-index:500; display:none; box-shadow:0 -4px 24px rgba(0,0,0,.14); }
+.indoor-panel.open { display:block; }
+.indoor-header { display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+.indoor-header h3 { font-size:16px; font-weight:700; flex:1; }
+.btn-close { background:none; border:none; font-size:20px; cursor:pointer; color:var(--soft); }
+.floor-tabs { display:flex; gap:6px; margin-bottom:12px; }
+.floor-tab { padding:6px 14px; border:1.5px solid var(--border); border-radius:999px; font-size:12px; font-weight:600; cursor:pointer; background:#fff; }
+.floor-tab.active { background:var(--amber); color:#fff; border-color:var(--amber); }
+.floor-plan-wrap { position:relative; width:100%; background:#fafafa; border:1px solid var(--border); border-radius:12px; overflow:hidden; }
+canvas#floorCanvas { display:block; width:100%; }
+.status { font-size:13px; padding:10px 14px; border-radius:10px; margin-top:10px; }
+.status.error   { background:#ffebee; border:1px solid #ef9a9a; color:#b71c1c; }
+.status.loading { background:#e3f2fd; border:1px solid #90caf9; color:#0d47a1; }
+.status.ok      { background:#e8f5e9; border:1px solid #a5d6a7; color:#1b5e20; }
+.lf-popup { min-width:180px; }
+.lf-popup .name { font-weight:700; font-size:14px; margin-bottom:4px; }
+.lf-popup .cat  { font-size:12px; color:var(--soft); background:#e8f0fa; padding:2px 8px; border-radius:999px; display:inline-block; margin-bottom:6px; }
+.lf-popup .action-btns { display:flex; gap:6px; margin-top:8px; }
+.lf-popup .action-btns button { flex:1; padding:6px; font-size:12px; border:none; border-radius:6px; cursor:pointer; font-weight:600; }
+.btn-set-src  { background:#e3f2fd; color:#1565c0; }
+.btn-set-dst  { background:#e8f5e9; color:#2e7d32; }
+.btn-indoor   { background:#fff8e1; color:#f57c00; }
+.legend { position:absolute; bottom:16px; right:16px; background:rgba(255,255,255,.92); border:1px solid var(--border); border-radius:12px; padding:10px 14px; font-size:12px; z-index:400; }
+.legend-row { display:flex; align-items:center; gap:8px; margin-bottom:4px; }
+.legend-row:last-child { margin:0; }
+.leg-line { width:28px; height:4px; border-radius:2px; }
+.indoor-legend { font-size:12px; color:var(--soft); margin-top:8px; display:flex; flex-wrap:wrap; gap:14px; }
+.indoor-legend span { display:inline-flex; align-items:center; gap:4px; }
+.legend-swatch { display:inline-block; width:14px; height:14px; border-radius:3px; }
+@media(max-width:820px) {
+  .app { grid-template-columns:1fr; grid-template-rows:auto auto 1fr; }
+  .sidebar { max-height:55vh; }
+  .map-area { min-height:350px; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top-bar">
+    <h1>Smart Campus Navigation</h1>
+    <span class="badge">GEU – Hybrid Nav</span>
+    <span class="badge" style="margin-left:auto;background:rgba(255,255,255,.15)">Outdoor + Indoor</span>
+  </header>
+  <aside class="sidebar">
+    <div class="s-section" style="border-bottom:1px solid var(--border);padding-bottom:18px;">
+      <div class="s-title">Plan Your Route</div>
+      <div class="field-row">
+        <label>From (Source)</label>
+        <select id="srcSelect"><option value="">Select starting point…</option></select>
+      </div>
+      <div class="field-row">
+        <label>To (Destination)</label>
+        <select id="dstSelect"><option value="">Select destination…</option></select>
+      </div>
+      <div class="s-title" style="margin-top:12px;">Navigation Mode</div>
+      <div class="mode-tabs" style="margin-bottom:12px;">
+        <div class="mode-tab active" data-mode="MIXED">Auto</div>
+        <div class="mode-tab" data-mode="OUTDOOR">Outdoor</div>
+        <div class="mode-tab" data-mode="INDOOR">Indoor</div>
+      </div>
+      <div class="s-title">Algorithm</div>
+      <div class="mode-tabs" style="margin-bottom:12px;">
+        <div class="mode-tab active" data-algo="shortest">Shortest</div>
+        <div class="mode-tab" data-algo="hops">Min Hops</div>
+      </div>
+      <div class="toggle-row">
+        <input type="checkbox" id="avoidStairs">
+        <label for="avoidStairs">Avoid stairs (use ramps/lifts)</label>
+      </div>
+      <button class="btn-go" id="btnGo">Get Directions</button>
+      <div id="status" class="status loading" style="display:none"></div>
+    </div>
+    <div id="summarySection" class="s-section" style="display:none;border-bottom:1px solid var(--border);padding-bottom:18px;">
+      <div class="s-title">Route Summary</div>
+      <div class="summary-card">
+        <div class="summary-stat"><div class="val" id="sumDist">–</div><div class="lbl">Distance</div></div>
+        <div class="summary-stat"><div class="val" id="sumTime">–</div><div class="lbl">Walk Time</div></div>
+        <div class="summary-stat"><div class="val" id="sumHops">–</div><div class="lbl">Stops</div></div>
+      </div>
+    </div>
+    <div id="directionsSection" class="s-section" style="display:none;padding-bottom:18px;">
+      <div class="s-title">Turn-by-Turn Directions</div>
+      <div class="dir-list" id="dirList"></div>
+    </div>
+  </aside>
+  <div class="map-area">
+    <div id="map"></div>
+    <div class="legend">
+      <div style="font-size:11px;font-weight:700;margin-bottom:6px;color:var(--soft)">ROUTE TYPE</div>
+      <div class="legend-row"><div class="leg-line" style="background:#1565c0"></div><span>Outdoor Path</span></div>
+      <div class="legend-row"><div class="leg-line" style="background:#f57c00"></div><span>Indoor Path</span></div>
+      <div class="legend-row"><div class="leg-line" style="background:#9c27b0;height:3px;border-style:dashed"></div><span>Mixed</span></div>
+    </div>
+    <div class="indoor-panel" id="indoorPanel">
+      <div class="indoor-header">
+        <h3 id="indoorBuildingName">Indoor Navigation</h3>
+        <button class="btn-close" id="btnCloseIndoor">&times;</button>
+      </div>
+      <div class="floor-tabs" id="floorTabs"></div>
+      <div class="floor-plan-wrap"><canvas id="floorCanvas" height="320"></canvas></div>
+      <div class="indoor-legend">
+        <span><span class="legend-swatch" style="background:#e3f2fd;border:1.5px solid #1565c0"></span> Rooms</span>
+        <span><span class="legend-swatch" style="background:#fff8e1;border:1.5px solid #f57c00"></span> Stairs</span>
+        <span><span class="legend-swatch" style="background:#c8e6c9;border:1.5px solid #2e7d32"></span> Start</span>
+        <span><span class="legend-swatch" style="background:#ffcdd2;border:1.5px solid #b71c1c"></span> End</span>
+        <span>──── Path</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const API = "";
+
+let allNodes = [], navMode = "MIXED", navAlgo = "shortest", currentRoute = null;
+
+const map = L.map("map", { center: [30.2684, 77.9957], zoom: 17 });
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
+  maxZoom: 20
+}).addTo(map);
+
+const routeLayerGroup = L.layerGroup().addTo(map);
+const markerGroup = L.layerGroup().addTo(map);
+let srcMarker = null, dstMarker = null;
+
+function makeDot(color) {
+  return L.divIcon({
+    html: '<div style="background:' + color + ';width:14px;height:14px;border-radius:50%;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.3)"></div>',
+    className: "",
+    iconSize: [14, 14],
+    iconAnchor: [7, 7]
+  });
+}
+function makePinIcon(color) {
+  return L.divIcon({
+    html: '<div style="background:' + color + ';color:#fff;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;box-shadow:0 2px 6px rgba(0,0,0,.3);border:2px solid #fff">&#9679;</div>',
+    className: "",
+    iconSize: [28, 28],
+    iconAnchor: [14, 14]
+  });
+}
+
+const icons = {
+  src:  makePinIcon("#2e7d32"),
+  dst:  makePinIcon("#e53935"),
+  bldg: makeDot("#1565c0"),
+  cafe: makeDot("#795548"),
+  med:  makeDot("#e53935"),
+  grnd: makeDot("#388e3c"),
+  ext:  makeDot("#9e9e9e"),
+  path: makeDot("#607d8b"),
+  land: makeDot("#f57c00"),
+};
+function iconForNode(n) {
+  const c = n.category;
+  if (c === "Cafe") return icons.cafe;
+  if (c === "Medical") return icons.med;
+  if (c === "Ground") return icons.grnd;
+  if (c === "External") return icons.ext;
+  if (c === "Path") return icons.path;
+  if (c === "Landmark") return icons.land;
+  return icons.bldg;
+}
+
+async function loadNodes() {
+  try {
+    const r = await fetch(API + "/nodes");
+    allNodes = await r.json();
+    populateSelects(allNodes);
+    addMarkersToMap(allNodes);
+  } catch (e) {
+    showStatus("Cannot reach backend. Start the Spring Boot server first.", "error");
+  }
+}
+
+function populateSelects(nodes) {
+  const outdoor = nodes.filter(n => !n.indoor);
+  const indoor  = nodes.filter(n => n.indoor);
+  const srcSel  = document.getElementById("srcSelect");
+  const dstSel  = document.getElementById("dstSelect");
+  [srcSel, dstSel].forEach(sel => {
+    sel.innerHTML = '<option value="">Select location…</option>';
+    const cats = [...new Set(outdoor.map(n => n.category))];
+    cats.forEach(cat => {
+      const grp = document.createElement("optgroup");
+      grp.label = cat;
+      outdoor.filter(n => n.category === cat).forEach(n => {
+        grp.appendChild(new Option(n.id, n.id));
+      });
+      sel.appendChild(grp);
+    });
+    const blds = [...new Set(indoor.filter(n => n.building).map(n => n.building))];
+    blds.forEach(bld => {
+      const grp = document.createElement("optgroup");
+      grp.label = bld + " (Indoor)";
+      indoor.filter(n => n.building === bld).forEach(n => {
+        grp.appendChild(new Option(n.label || n.id, n.id));
+      });
+      sel.appendChild(grp);
+    });
+  });
+}
+
+function addMarkersToMap(nodes) {
+  markerGroup.clearLayers();
+  nodes.filter(n => !n.indoor && n.lat && n.lng).forEach(n => {
+    L.marker([n.lat, n.lng], { icon: iconForNode(n) })
+      .bindPopup(popupHTML(n))
+      .addTo(markerGroup);
+  });
+}
+
+function popupHTML(n) {
+  const hasIndoor = allNodes.some(x => x.indoor && x.building === n.id);
+  return '<div class="lf-popup">' +
+    '<div class="name">' + n.id + '</div>' +
+    '<div class="cat">' + n.category + '</div>' +
+    '<div class="action-btns">' +
+      '<button class="btn-set-src" onclick="setSrc(\'' + n.id + '\')">From here</button>' +
+      '<button class="btn-set-dst" onclick="setDst(\'' + n.id + '\')">To here</button>' +
+      (hasIndoor ? '<button class="btn-indoor" onclick="openIndoor(\'' + n.id + '\')">Indoor</button>' : '') +
+    '</div></div>';
+}
+window.setSrc = function(id) { document.getElementById("srcSelect").value = id; map.closePopup(); };
+window.setDst = function(id) { document.getElementById("dstSelect").value = id; map.closePopup(); };
+window.openIndoor = function(bld) { showIndoorPanel(bld, []); };
+
+document.querySelectorAll(".mode-tab[data-mode]").forEach(function(t) {
+  t.addEventListener("click", function() {
+    document.querySelectorAll(".mode-tab[data-mode]").forEach(function(x) { x.classList.remove("active"); });
+    t.classList.add("active");
+    navMode = t.dataset.mode;
+  });
+});
+document.querySelectorAll(".mode-tab[data-algo]").forEach(function(t) {
+  t.addEventListener("click", function() {
+    document.querySelectorAll(".mode-tab[data-algo]").forEach(function(x) { x.classList.remove("active"); });
+    t.classList.add("active");
+    navAlgo = t.dataset.algo;
+  });
+});
+
+document.getElementById("btnGo").addEventListener("click", getRoute);
+
+async function getRoute() {
+  const src = document.getElementById("srcSelect").value;
+  const dst = document.getElementById("dstSelect").value;
+  const avoid = document.getElementById("avoidStairs").checked;
+  if (!src || !dst) { showStatus("Please select both source and destination.", "error"); return; }
+  if (src === dst)  { showStatus("Source and destination cannot be the same.", "error"); return; }
+  showStatus("Calculating route…", "loading");
+  try {
+    const url = API + "/navigate?source=" + encodeURIComponent(src) + "&destination=" + encodeURIComponent(dst) + "&type=" + navAlgo + "&mode=" + navMode + "&avoidStairs=" + avoid;
+    const res = await fetch(url);
+    const data = await res.json();
+    if (data.error) { showStatus(data.error, "error"); return; }
+    currentRoute = data;
+    renderRoute(data);
+    showStatus("Route found via " + data.algorithm + " — " + data.distanceText + " — " + data.estimatedTime, "ok");
+  } catch (e) {
+    showStatus("Failed to fetch route. Is the backend running?", "error");
+  }
+}
+
+function renderRoute(data) {
+  routeLayerGroup.clearLayers();
+  const details = data.pathDetails || [];
+  for (var i = 0; i < details.length - 1; i++) {
+    var a = details[i], b = details[i + 1];
+    if (!a.lat || !b.lat) continue;
+    var isIndoor = a.indoor || b.indoor;
+    L.polyline([[a.lat, a.lng], [b.lat, b.lng]], {
+      color: isIndoor ? "#f57c00" : "#1565c0",
+      weight: isIndoor ? 4 : 5,
+      opacity: 0.9,
+      dashArray: isIndoor ? "8,5" : null
+    }).addTo(routeLayerGroup);
+  }
+  var first = details[0], last = details[details.length - 1];
+  if (first && first.lat) {
+    srcMarker = L.marker([first.lat, first.lng], { icon: icons.src }).bindPopup("Start: " + first.label).addTo(routeLayerGroup);
+  }
+  if (last && last.lat) {
+    dstMarker = L.marker([last.lat, last.lng], { icon: icons.dst }).bindPopup("End: " + last.label).addTo(routeLayerGroup);
+  }
+  var pts = details.filter(function(d) { return d.lat; }).map(function(d) { return [d.lat, d.lng]; });
+  if (pts.length > 1) map.fitBounds(pts, { padding: [40, 40] });
+
+  document.getElementById("sumDist").textContent = data.distanceText || "–";
+  document.getElementById("sumTime").textContent = data.estimatedTime || "–";
+  document.getElementById("sumHops").textContent = data.hops || "–";
+  document.getElementById("summarySection").style.display = "block";
+  renderDirections(data.directions || []);
+  if (data.hasIndoor) {
+    var indoorSteps = (data.pathDetails || []).filter(function(s) { return s.indoor; });
+    var bld = indoorSteps[0] && indoorSteps[0].building;
+    if (bld) showIndoorPanel(bld, data.pathDetails || []);
+  }
+}
+
+function renderDirections(directions) {
+  var list = document.getElementById("dirList");
+  list.innerHTML = "";
+  if (!directions.length) { document.getElementById("directionsSection").style.display = "none"; return; }
+  directions.forEach(function(d, idx) {
+    var cls = d.type === "start" ? "start" : d.type === "arrive" ? "arrive" : d.isStairs ? "stairs" : d.isIndoor ? "indoor" : "";
+    var div = document.createElement("div");
+    div.className = "dir-step " + cls;
+    div.innerHTML =
+      '<div class="step-num">' + (idx + 1) + '</div>' +
+      '<div class="text"><strong>' + d.instruction + '</strong><span class="sub">' + d.from + ' → ' + d.to + (d.isIndoor ? ' (indoor)' : '') + '</span></div>' +
+      (d.distanceText ? '<div class="dist">' + d.distanceText + '</div>' : '');
+    list.appendChild(div);
+  });
+  document.getElementById("directionsSection").style.display = "block";
+}
+
+function showStatus(msg, type) {
+  var el = document.getElementById("status");
+  el.textContent = msg;
+  el.className = "status " + type;
+  el.style.display = "block";
+}
+
+var currentBuilding = null, currentFloor = 0, indoorPath = [];
+
+function showIndoorPanel(buildingId, pathDetails) {
+  currentBuilding = buildingId;
+  indoorPath = pathDetails.filter(function(p) { return p.building === buildingId || p.id === buildingId; });
+  var buildingNodes = allNodes.filter(function(n) { return n.building === buildingId && n.indoor; });
+  if (!buildingNodes.length) { showStatus("No indoor data for " + buildingId, "error"); return; }
+  var floors = [...new Set(buildingNodes.map(function(n) { return n.floor; }))].sort(function(a,b) { return a-b; });
+  document.getElementById("indoorBuildingName").textContent = buildingId;
+  var tabsCont = document.getElementById("floorTabs");
+  tabsCont.innerHTML = "";
+  floors.forEach(function(f) {
+    var t = document.createElement("button");
+    t.className = "floor-tab" + (f === currentFloor ? " active" : "");
+    t.textContent = f === 0 ? "Ground Floor" : "Floor " + f;
+    t.onclick = function() { currentFloor = f; document.querySelectorAll(".floor-tab").forEach(function(x) { x.classList.remove("active"); }); t.classList.add("active"); drawFloorPlan(buildingId, f, indoorPath); };
+    tabsCont.appendChild(t);
+  });
+  currentFloor = floors[0];
+  document.getElementById("indoorPanel").classList.add("open");
+  drawFloorPlan(buildingId, currentFloor, indoorPath);
+}
+
+document.getElementById("btnCloseIndoor").onclick = function() {
+  document.getElementById("indoorPanel").classList.remove("open");
+};
+
+function drawFloorPlan(buildingId, floor, path) {
+  var canvas = document.getElementById("floorCanvas");
+  var ctx = canvas.getContext("2d");
+  var W = canvas.offsetWidth || 600;
+  canvas.width = W; canvas.height = 320;
+  ctx.clearRect(0, 0, W, 320);
+  ctx.fillStyle = "#fafafa"; ctx.fillRect(0, 0, W, 320);
+  ctx.strokeStyle = "#ddd"; ctx.strokeRect(0, 0, W, 320);
+
+  var floorNodes = allNodes.filter(function(n) { return n.building === buildingId && n.indoor && n.floor === floor; });
+  if (!floorNodes.length) {
+    ctx.fillStyle = "#bbb"; ctx.font = "14px Outfit,sans-serif"; ctx.textAlign = "center";
+    ctx.fillText("No room data for this floor", W/2, 160); return;
+  }
+  var padding = 40, drawW = W - padding*2, drawH = 320 - padding*2;
+  var xs = floorNodes.map(function(n) { return n.x; }), ys = floorNodes.map(function(n) { return n.y; });
+  var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+  var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+  var rangeX = maxX - minX || 1, rangeY = maxY - minY || 1;
+  function toCanvas(nx, ny) {
+    return [padding + ((nx - minX) / rangeX) * drawW, padding + ((ny - minY) / rangeY) * drawH];
+  }
+  var pathOnFloor = path.filter(function(p) { return p.floor === floor && p.building === buildingId; });
+  if (pathOnFloor.length > 1) {
+    ctx.beginPath(); ctx.strokeStyle = "#1565c0"; ctx.lineWidth = 3; ctx.setLineDash([8, 4]);
+    pathOnFloor.forEach(function(p, i) {
+      var n = allNodes.find(function(x) { return x.id === p.id; });
+      if (!n) return;
+      var c = toCanvas(n.x, n.y);
+      if (i === 0) ctx.moveTo(c[0], c[1]); else ctx.lineTo(c[0], c[1]);
+    });
+    ctx.stroke(); ctx.setLineDash([]);
+  }
+  floorNodes.forEach(function(n) {
+    var c = toCanvas(n.x, n.y);
+    var cx = c[0], cy = c[1];
+    var isStairs = n.label && n.label.toLowerCase().indexOf("stair") >= 0;
+    var isOnPath = pathOnFloor.some(function(p) { return p.id === n.id; });
+    var isStart = pathOnFloor[0] && pathOnFloor[0].id === n.id;
+    var isEnd = pathOnFloor.length > 0 && pathOnFloor[pathOnFloor.length-1].id === n.id;
+    var rw = 70, rh = 30;
+    ctx.beginPath(); ctx.roundRect(cx - rw/2, cy - rh/2, rw, rh, 6);
+    ctx.fillStyle = isStart ? "#c8e6c9" : isEnd ? "#ffcdd2" : isOnPath ? "#e3f2fd" : isStairs ? "#fff8e1" : "#fff";
+    ctx.fill();
+    ctx.strokeStyle = isStart ? "#2e7d32" : isEnd ? "#b71c1c" : isOnPath ? "#1565c0" : isStairs ? "#f57c00" : "#bbb";
+    ctx.lineWidth = isOnPath ? 2 : 1.5; ctx.stroke();
+    var stepIdx = pathOnFloor.findIndex(function(p) { return p.id === n.id; });
+    if (stepIdx >= 0) {
+      ctx.beginPath(); ctx.arc(cx + rw/2 - 8, cy - rh/2 + 8, 8, 0, Math.PI*2);
+      ctx.fillStyle = "#1565c0"; ctx.fill();
+      ctx.fillStyle = "#fff"; ctx.font = "bold 9px Outfit,sans-serif"; ctx.textAlign = "center";
+      ctx.fillText(stepIdx + 1, cx + rw/2 - 8, cy - rh/2 + 11.5);
+    }
+    ctx.fillStyle = "#333";
+    ctx.font = isOnPath ? "bold 9px Outfit,sans-serif" : "9px Outfit,sans-serif";
+    ctx.textAlign = "center";
+    var labelText = n.label || n.id;
+    ctx.fillText(labelText.length > 12 ? labelText.substring(0, 12) + "…" : labelText, cx, cy + 4);
+  });
+  ctx.fillStyle = "#9e9e9e"; ctx.font = "11px Outfit,sans-serif"; ctx.textAlign = "left";
+  ctx.fillText(floor === 0 ? "Ground Floor" : "Floor " + floor + "  •  " + buildingId, 8, 14);
+}
+
+loadNodes();
+</script>
+</body>
+</html>

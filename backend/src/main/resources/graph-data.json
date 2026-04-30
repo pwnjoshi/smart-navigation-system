@@ -1,0 +1,2233 @@
+{
+  "nodes": [
+    {
+      "id": "GEU Aryabhatta Computer Center",
+      "category": "Building",
+      "lat": 30.267676,
+      "lng": 77.9957536,
+      "x": 0.4998,
+      "y": 0.6433,
+      "floor": 0
+    },
+    {
+      "id": "GEU Boys Hostel",
+      "category": "Building",
+      "lat": 30.2673872,
+      "lng": 77.9941469,
+      "x": 0.2713,
+      "y": 0.7085,
+      "floor": 0
+    },
+    {
+      "id": "GEU Btech Block",
+      "category": "Building",
+      "lat": 30.2673007,
+      "lng": 77.9952516,
+      "x": 0.4284,
+      "y": 0.728,
+      "floor": 0
+    },
+    {
+      "id": "GEU CSIT Building",
+      "category": "Building",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555,
+      "floor": 0
+    },
+    {
+      "id": "GEU Chanakya Block",
+      "category": "Building",
+      "lat": 30.2674938,
+      "lng": 77.9969915,
+      "x": 0.6757,
+      "y": 0.6844,
+      "floor": 0
+    },
+    {
+      "id": "GEU Civil Block",
+      "category": "Building",
+      "lat": 30.2668572,
+      "lng": 77.9954717,
+      "x": 0.4597,
+      "y": 0.828,
+      "floor": 0
+    },
+    {
+      "id": "GEU Convention Centre",
+      "category": "Building",
+      "lat": 30.2692982,
+      "lng": 77.994926,
+      "x": 0.3821,
+      "y": 0.2775,
+      "floor": 0
+    },
+    {
+      "id": "GEU Girls Hostel",
+      "category": "Building",
+      "lat": 30.2676849,
+      "lng": 77.9936119,
+      "x": 0.1953,
+      "y": 0.6413,
+      "floor": 0
+    },
+    {
+      "id": "GEU KP Nautiyal Block",
+      "category": "Building",
+      "lat": 30.26804,
+      "lng": 77.9966115,
+      "x": 0.6217,
+      "y": 0.5612,
+      "floor": 0
+    },
+    {
+      "id": "GEU Law Block",
+      "category": "Building",
+      "lat": 30.2683566,
+      "lng": 77.9929819,
+      "x": 0.1057,
+      "y": 0.4898,
+      "floor": 0
+    },
+    {
+      "id": "GEU Mechanical Block",
+      "category": "Building",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599,
+      "floor": 0
+    },
+    {
+      "id": "GEU PNB ATM",
+      "category": "Building",
+      "lat": 30.2686732,
+      "lng": 77.9948851,
+      "x": 0.3763,
+      "y": 0.4184,
+      "floor": 0
+    },
+    {
+      "id": "GEU Param Computer Centre",
+      "category": "Building",
+      "lat": 30.2674204,
+      "lng": 77.9960552,
+      "x": 0.5426,
+      "y": 0.701,
+      "floor": 0
+    },
+    {
+      "id": "GEU Petroleum Block",
+      "category": "Building",
+      "lat": 30.2676769,
+      "lng": 77.9964449,
+      "x": 0.598,
+      "y": 0.6431,
+      "floor": 0
+    },
+    {
+      "id": "GEU Pharma Block",
+      "category": "Building",
+      "lat": 30.2693861,
+      "lng": 77.9928587,
+      "x": 0.0882,
+      "y": 0.2577,
+      "floor": 0
+    },
+    {
+      "id": "GEU President Estate",
+      "category": "Building",
+      "lat": 30.2684143,
+      "lng": 77.9956745,
+      "x": 0.4885,
+      "y": 0.4768,
+      "floor": 0
+    },
+    {
+      "id": "GEU Priyadarshini Hostel",
+      "category": "Building",
+      "lat": 30.268717,
+      "lng": 77.9961654,
+      "x": 0.5583,
+      "y": 0.4086,
+      "floor": 0
+    },
+    {
+      "id": "GEU Santoshanand Library",
+      "category": "Building",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306,
+      "floor": 0
+    },
+    {
+      "id": "GEU Cafe and Gym",
+      "category": "Cafe",
+      "lat": 30.267141,
+      "lng": 77.9946686,
+      "x": 0.3455,
+      "y": 0.764,
+      "floor": 0
+    },
+    {
+      "id": "GEU Mess",
+      "category": "Cafe",
+      "lat": 30.2676247,
+      "lng": 77.993928,
+      "x": 0.2402,
+      "y": 0.6549,
+      "floor": 0
+    },
+    {
+      "id": "GEU Global School",
+      "category": "External",
+      "lat": 30.2687048,
+      "lng": 77.9986215,
+      "x": 0.9075,
+      "y": 0.4113,
+      "floor": 0
+    },
+    {
+      "id": "St Paul High School",
+      "category": "External",
+      "lat": 30.2694524,
+      "lng": 77.9964712,
+      "x": 0.6018,
+      "y": 0.2427,
+      "floor": 0
+    },
+    {
+      "id": "GEU Basketball Court",
+      "category": "Ground",
+      "lat": 30.2670208,
+      "lng": 77.9959588,
+      "x": 0.5289,
+      "y": 0.7911,
+      "floor": 0
+    },
+    {
+      "id": "GEU Indoor Badminton Court",
+      "category": "Ground",
+      "lat": 30.266882,
+      "lng": 77.9950234,
+      "x": 0.3959,
+      "y": 0.8224,
+      "floor": 0
+    },
+    {
+      "id": "GEU Bus Parking",
+      "category": "Landmark",
+      "lat": 30.2683961,
+      "lng": 77.9971826,
+      "x": 0.7029,
+      "y": 0.4809,
+      "floor": 0
+    },
+    {
+      "id": "GEU Gate 2",
+      "category": "Landmark",
+      "lat": 30.2687162,
+      "lng": 77.9978834,
+      "x": 0.8025,
+      "y": 0.4087,
+      "floor": 0
+    },
+    {
+      "id": "GEU Main Gate",
+      "category": "Landmark",
+      "lat": 30.2686271,
+      "lng": 77.9947947,
+      "x": 0.3634,
+      "y": 0.4288,
+      "floor": 0
+    },
+    {
+      "id": "GEU Dispensary",
+      "category": "Medical",
+      "lat": 30.2685381,
+      "lng": 77.9950326,
+      "x": 0.3973,
+      "y": 0.4489,
+      "floor": 0
+    },
+    {
+      "id": "St Paul Hospital",
+      "category": "Medical",
+      "lat": 30.2697687,
+      "lng": 77.9973892,
+      "x": 0.7323,
+      "y": 0.1714,
+      "floor": 0
+    },
+    {
+      "id": "Junction (Bell Road & Post Office Road)",
+      "category": "Path",
+      "lat": 30.2700555,
+      "lng": 77.9965798,
+      "x": 0.6172,
+      "y": 0.1067,
+      "floor": 0
+    },
+    {
+      "id": "Junction (Bell Road & residential)",
+      "category": "Path",
+      "lat": 30.2674263,
+      "lng": 77.9929748,
+      "x": 0.1047,
+      "y": 0.6996,
+      "floor": 0
+    },
+    {
+      "id": "Junction (Bell Road & residential) #2",
+      "category": "Path",
+      "lat": 30.2685292,
+      "lng": 77.9943591,
+      "x": 0.3015,
+      "y": 0.4509,
+      "floor": 0
+    },
+    {
+      "id": "Junction (Bell Road & service)",
+      "category": "Path",
+      "lat": 30.2692762,
+      "lng": 77.9955121,
+      "x": 0.4654,
+      "y": 0.2825,
+      "floor": 0
+    },
+    {
+      "id": "Junction (Bell Road & service) #2",
+      "category": "Path",
+      "lat": 30.2682848,
+      "lng": 77.9937537,
+      "x": 0.2154,
+      "y": 0.506,
+      "floor": 0
+    },
+    {
+      "id": "Junction (Lane No. 11 & path)",
+      "category": "Path",
+      "lat": 30.2691843,
+      "lng": 77.9985159,
+      "x": 0.8925,
+      "y": 0.3032,
+      "floor": 0
+    },
+    {
+      "id": "Junction (Lane No. 11 & residential)",
+      "category": "Path",
+      "lat": 30.2695197,
+      "lng": 77.9989723,
+      "x": 0.9573,
+      "y": 0.2275,
+      "floor": 0
+    },
+    {
+      "id": "Junction (Post Office Road & St. Mary's Church Road)",
+      "category": "Path",
+      "lat": 30.2692323,
+      "lng": 77.9972037,
+      "x": 0.7059,
+      "y": 0.2923,
+      "floor": 0
+    },
+    {
+      "id": "Junction (Post Office Road & residential)",
+      "category": "Path",
+      "lat": 30.2677885,
+      "lng": 77.9988067,
+      "x": 0.9338,
+      "y": 0.618,
+      "floor": 0
+    },
+    {
+      "id": "Junction (Post Office Road)",
+      "category": "Path",
+      "lat": 30.2681433,
+      "lng": 77.9985056,
+      "x": 0.891,
+      "y": 0.538,
+      "floor": 0
+    },
+    {
+      "id": "Junction (St. Mary's Church Road & path)",
+      "category": "Path",
+      "lat": 30.2698117,
+      "lng": 77.9977906,
+      "x": 0.7894,
+      "y": 0.1617,
+      "floor": 0
+    },
+    {
+      "id": "Junction (St. Mary's Church Road & residential)",
+      "category": "Path",
+      "lat": 30.2702287,
+      "lng": 77.9983524,
+      "x": 0.8692,
+      "y": 0.0677,
+      "floor": 0
+    },
+    {
+      "id": "Junction (residential & service)",
+      "category": "Path",
+      "lat": 30.2699714,
+      "lng": 77.995673,
+      "x": 0.4883,
+      "y": 0.1257,
+      "floor": 0
+    },
+    {
+      "id": "Junction (residential & service) #2",
+      "category": "Path",
+      "lat": 30.2688291,
+      "lng": 77.9965475,
+      "x": 0.6126,
+      "y": 0.3833,
+      "floor": 0
+    },
+    {
+      "id": "Junction (residential)",
+      "category": "Path",
+      "lat": 30.2701984,
+      "lng": 77.9951943,
+      "x": 0.4202,
+      "y": 0.0745,
+      "floor": 0
+    },
+    {
+      "id": "Junction (residential) #2",
+      "category": "Path",
+      "lat": 30.267129,
+      "lng": 77.9942608,
+      "x": 0.2875,
+      "y": 0.7667,
+      "floor": 0
+    },
+    {
+      "id": "Junction (residential) #3",
+      "category": "Path",
+      "lat": 30.2663944,
+      "lng": 77.99676,
+      "x": 0.6428,
+      "y": 0.9323,
+      "floor": 0
+    },
+    {
+      "id": "Junction (residential) #4",
+      "category": "Path",
+      "lat": 30.2700671,
+      "lng": 77.9929743,
+      "x": 0.1046,
+      "y": 0.1041,
+      "floor": 0
+    },
+    {
+      "id": "Junction (residential) #5",
+      "category": "Path",
+      "lat": 30.2698084,
+      "lng": 77.9925384,
+      "x": 0.0427,
+      "y": 0.1624,
+      "floor": 0
+    },
+    {
+      "id": "Junction (service)",
+      "category": "Path",
+      "lat": 30.2679634,
+      "lng": 77.9969652,
+      "x": 0.672,
+      "y": 0.5785,
+      "floor": 0
+    },
+    {
+      "id": "Junction (service) #10",
+      "category": "Path",
+      "lat": 30.2670486,
+      "lng": 77.9956573,
+      "x": 0.4861,
+      "y": 0.7848,
+      "floor": 0
+    },
+    {
+      "id": "Junction (service) #2",
+      "category": "Path",
+      "lat": 30.2683117,
+      "lng": 77.9950929,
+      "x": 0.4058,
+      "y": 0.5,
+      "floor": 0
+    },
+    {
+      "id": "Junction (service) #3",
+      "category": "Path",
+      "lat": 30.2677691,
+      "lng": 77.9950159,
+      "x": 0.3949,
+      "y": 0.6223,
+      "floor": 0
+    },
+    {
+      "id": "Junction (service) #4",
+      "category": "Path",
+      "lat": 30.2678512,
+      "lng": 77.9940295,
+      "x": 0.2546,
+      "y": 0.6038,
+      "floor": 0
+    },
+    {
+      "id": "Junction (service) #5",
+      "category": "Path",
+      "lat": 30.2685701,
+      "lng": 77.9934555,
+      "x": 0.173,
+      "y": 0.4417,
+      "floor": 0
+    },
+    {
+      "id": "Junction (service) #6",
+      "category": "Path",
+      "lat": 30.2688651,
+      "lng": 77.9972728,
+      "x": 0.7157,
+      "y": 0.3752,
+      "floor": 0
+    },
+    {
+      "id": "Junction (service) #7",
+      "category": "Path",
+      "lat": 30.2678851,
+      "lng": 77.9959786,
+      "x": 0.5317,
+      "y": 0.5962,
+      "floor": 0
+    },
+    {
+      "id": "Junction (service) #8",
+      "category": "Path",
+      "lat": 30.2683375,
+      "lng": 77.9959468,
+      "x": 0.5272,
+      "y": 0.4941,
+      "floor": 0
+    },
+    {
+      "id": "Junction (service) #9",
+      "category": "Path",
+      "lat": 30.2675105,
+      "lng": 77.9949559,
+      "x": 0.3864,
+      "y": 0.6806,
+      "floor": 0
+    },
+    {
+      "id": "CSIT-1-Corridor",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "1st Floor Corridor",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-1-Landing",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "1st Floor Landing",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-1-Room201",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "Room 201 - AI Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-1-Room202",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "Room 202 - Seminar Hall",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-1-Room203",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "Room 203 - Faculty Room",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-1-Stairs",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "Stairs (1st Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-2-Corridor",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "2nd Floor Corridor",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-2-HODOffice",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "HOD Office - CS Dept",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-2-Landing",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "2nd Floor Landing",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-2-Room301",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "Room 301 - Data Center",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-2-Room302",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "Room 302 - Research Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-G-Entrance",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-G-Lab101",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "label": "Lab 101 - Computer Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-G-Lab102",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "label": "Lab 102 - Network Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-G-Lobby",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "label": "Ground Floor Lobby",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "CSIT-G-Stairs",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "label": "Stairs (Ground)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.1339,
+      "y": 0.3555
+    },
+    {
+      "id": "LIB-1-DigitalSection",
+      "category": "IndoorNode",
+      "building": "GEU Santoshanand Library",
+      "floor": 1,
+      "indoor": true,
+      "label": "Digital Resources Section",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
+    },
+    {
+      "id": "LIB-1-Landing",
+      "category": "IndoorNode",
+      "building": "GEU Santoshanand Library",
+      "floor": 1,
+      "indoor": true,
+      "label": "1st Floor Landing",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
+    },
+    {
+      "id": "LIB-1-Periodicals",
+      "category": "IndoorNode",
+      "building": "GEU Santoshanand Library",
+      "floor": 1,
+      "indoor": true,
+      "label": "Periodicals & Journals",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
+    },
+    {
+      "id": "LIB-1-SilentZone",
+      "category": "IndoorNode",
+      "building": "GEU Santoshanand Library",
+      "floor": 1,
+      "indoor": true,
+      "label": "Silent Study Zone",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
+    },
+    {
+      "id": "LIB-G-Entrance",
+      "category": "IndoorNode",
+      "building": "GEU Santoshanand Library",
+      "floor": 0,
+      "indoor": true,
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
+    },
+    {
+      "id": "LIB-G-IssuingCounter",
+      "category": "IndoorNode",
+      "building": "GEU Santoshanand Library",
+      "floor": 0,
+      "indoor": true,
+      "label": "Book Issuing Counter",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
+    },
+    {
+      "id": "LIB-G-ReadingHall",
+      "category": "IndoorNode",
+      "building": "GEU Santoshanand Library",
+      "floor": 0,
+      "indoor": true,
+      "label": "Ground Floor Reading Hall",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
+    },
+    {
+      "id": "LIB-G-Reception",
+      "category": "IndoorNode",
+      "building": "GEU Santoshanand Library",
+      "floor": 0,
+      "indoor": true,
+      "label": "Library Reception",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
+    },
+    {
+      "id": "LIB-G-Stacks",
+      "category": "IndoorNode",
+      "building": "GEU Santoshanand Library",
+      "floor": 0,
+      "indoor": true,
+      "label": "Book Stacks Section",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
+    },
+    {
+      "id": "LIB-G-Stairs",
+      "category": "IndoorNode",
+      "building": "GEU Santoshanand Library",
+      "floor": 0,
+      "indoor": true,
+      "label": "Stairs to 1st Floor",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
+    },
+    {
+      "id": "MECH-1-CADLab",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 1,
+      "indoor": true,
+      "label": "CAD/CAM Lab",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-1-HOD",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 1,
+      "indoor": true,
+      "label": "HOD Office - Mechanical",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-1-Landing",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 1,
+      "indoor": true,
+      "label": "1st Floor Landing",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-G-DrawingHall",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 0,
+      "indoor": true,
+      "label": "Drawing Hall",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-G-Entrance",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 0,
+      "indoor": true,
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-G-Lobby",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 0,
+      "indoor": true,
+      "label": "Main Lobby",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-G-Stairs",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 0,
+      "indoor": true,
+      "label": "Stairs",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-G-Workshop",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 0,
+      "indoor": true,
+      "label": "Workshop / Machine Lab",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    }
+  ],
+  "edges": [
+    {
+      "from": "GEU Civil Block",
+      "to": "Junction (service) #10",
+      "weight": 28,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Civil Block",
+      "to": "GEU Indoor Badminton Court",
+      "weight": 43,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Civil Block",
+      "to": "GEU Basketball Court",
+      "weight": 50,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Civil Block",
+      "to": "GEU Btech Block",
+      "weight": 54,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Civil Block",
+      "to": "GEU Santoshanand Library",
+      "weight": 54,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Aryabhatta Computer Center",
+      "to": "Junction (service) #7",
+      "weight": 32,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Aryabhatta Computer Center",
+      "to": "GEU Param Computer Centre",
+      "weight": 41,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Aryabhatta Computer Center",
+      "to": "GEU Santoshanand Library",
+      "weight": 43,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Aryabhatta Computer Center",
+      "to": "GEU Mechanical Block",
+      "weight": 62,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Aryabhatta Computer Center",
+      "to": "GEU Btech Block",
+      "weight": 64,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU CSIT Building",
+      "to": "Junction (service) #5",
+      "weight": 50,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU CSIT Building",
+      "to": "GEU Pharma Block",
+      "weight": 57,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU CSIT Building",
+      "to": "GEU Law Block",
+      "weight": 69,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU CSIT Building",
+      "to": "Junction (Bell Road & service) #2",
+      "weight": 92,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU CSIT Building",
+      "to": "Junction (residential) #5",
+      "weight": 113,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Convention Centre",
+      "to": "Junction (Bell Road & service)",
+      "weight": 56,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Convention Centre",
+      "to": "GEU PNB ATM",
+      "weight": 70,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Convention Centre",
+      "to": "GEU Main Gate",
+      "weight": 76,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Convention Centre",
+      "to": "GEU Dispensary",
+      "weight": 85,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Convention Centre",
+      "to": "Junction (Bell Road & residential) #2",
+      "weight": 101,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Bus Parking",
+      "to": "Junction (service)",
+      "weight": 52,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Bus Parking",
+      "to": "Junction (service) #6",
+      "weight": 53,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Bus Parking",
+      "to": "GEU KP Nautiyal Block",
+      "weight": 68,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Bus Parking",
+      "to": "GEU Gate 2",
+      "weight": 76,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Bus Parking",
+      "to": "Junction (residential & service) #2",
+      "weight": 78,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Mess",
+      "to": "Junction (service) #4",
+      "weight": 27,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Mess",
+      "to": "GEU Girls Hostel",
+      "weight": 31,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Mess",
+      "to": "GEU Boys Hostel",
+      "weight": 34,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Mess",
+      "to": "Junction (residential) #2",
+      "weight": 64,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Mess",
+      "to": "Junction (Bell Road & service) #2",
+      "weight": 75,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Girls Hostel",
+      "to": "Junction (service) #4",
+      "weight": 44,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Girls Hostel",
+      "to": "GEU Boys Hostel",
+      "weight": 61,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Girls Hostel",
+      "to": "Junction (Bell Road & residential)",
+      "weight": 68,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Girls Hostel",
+      "to": "Junction (Bell Road & service) #2",
+      "weight": 68,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "St Paul High School",
+      "to": "Junction (Bell Road & Post Office Road)",
+      "weight": 68,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "St Paul High School",
+      "to": "Junction (residential & service) #2",
+      "weight": 70,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "St Paul High School",
+      "to": "Junction (Post Office Road & St. Mary's Church Road)",
+      "weight": 74,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "St Paul High School",
+      "to": "GEU Priyadarshini Hostel",
+      "weight": 87,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "St Paul High School",
+      "to": "Junction (Bell Road & service)",
+      "weight": 94,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Btech Block",
+      "to": "Junction (service) #9",
+      "weight": 37,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Btech Block",
+      "to": "GEU Santoshanand Library",
+      "weight": 47,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Btech Block",
+      "to": "Junction (service) #10",
+      "weight": 48,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Btech Block",
+      "to": "GEU Indoor Badminton Court",
+      "weight": 51,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Cafe and Gym",
+      "to": "Junction (residential) #2",
+      "weight": 39,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Cafe and Gym",
+      "to": "GEU Indoor Badminton Court",
+      "weight": 45,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Cafe and Gym",
+      "to": "Junction (service) #9",
+      "weight": 49,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Cafe and Gym",
+      "to": "GEU Boys Hostel",
+      "weight": 57,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Cafe and Gym",
+      "to": "GEU Btech Block",
+      "weight": 59,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Indoor Badminton Court",
+      "to": "Junction (service) #10",
+      "weight": 64,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Indoor Badminton Court",
+      "to": "Junction (service) #9",
+      "weight": 70,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU KP Nautiyal Block",
+      "to": "Junction (service)",
+      "weight": 35,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU KP Nautiyal Block",
+      "to": "GEU Mechanical Block",
+      "weight": 35,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU KP Nautiyal Block",
+      "to": "GEU Petroleum Block",
+      "weight": 43,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU KP Nautiyal Block",
+      "to": "Junction (service) #7",
+      "weight": 63,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Param Computer Centre",
+      "to": "GEU Santoshanand Library",
+      "weight": 34,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Param Computer Centre",
+      "to": "GEU Basketball Court",
+      "weight": 45,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Param Computer Centre",
+      "to": "GEU Petroleum Block",
+      "weight": 47,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Param Computer Centre",
+      "to": "Junction (service) #7",
+      "weight": 52,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Santoshanand Library",
+      "to": "Junction (service) #10",
+      "weight": 28,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Santoshanand Library",
+      "to": "GEU Basketball Court",
+      "weight": 37,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Petroleum Block",
+      "to": "GEU Mechanical Block",
+      "weight": 45,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Petroleum Block",
+      "to": "Junction (service) #7",
+      "weight": 50,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Petroleum Block",
+      "to": "GEU Chanakya Block",
+      "weight": 56,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Chanakya Block",
+      "to": "Junction (service)",
+      "weight": 52,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Chanakya Block",
+      "to": "GEU KP Nautiyal Block",
+      "weight": 71,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Chanakya Block",
+      "to": "GEU Param Computer Centre",
+      "weight": 90,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Chanakya Block",
+      "to": "GEU Mechanical Block",
+      "weight": 95,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Mechanical Block",
+      "to": "Junction (service) #7",
+      "weight": 31,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Mechanical Block",
+      "to": "Junction (service) #8",
+      "weight": 43,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Priyadarshini Hostel",
+      "to": "Junction (residential & service) #2",
+      "weight": 39,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Priyadarshini Hostel",
+      "to": "Junction (service) #8",
+      "weight": 47,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Priyadarshini Hostel",
+      "to": "GEU President Estate",
+      "weight": 58,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Priyadarshini Hostel",
+      "to": "GEU Mechanical Block",
+      "weight": 75,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Priyadarshini Hostel",
+      "to": "GEU KP Nautiyal Block",
+      "weight": 87,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU President Estate",
+      "to": "Junction (service) #8",
+      "weight": 28,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU President Estate",
+      "to": "Junction (service) #2",
+      "weight": 57,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU President Estate",
+      "to": "GEU Dispensary",
+      "weight": 63,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU President Estate",
+      "to": "Junction (service) #7",
+      "weight": 66,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Dispensary",
+      "to": "GEU PNB ATM",
+      "weight": 21,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Dispensary",
+      "to": "GEU Main Gate",
+      "weight": 25,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Dispensary",
+      "to": "Junction (service) #2",
+      "weight": 26,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Dispensary",
+      "to": "Junction (Bell Road & residential) #2",
+      "weight": 65,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Basketball Court",
+      "to": "Junction (service) #10",
+      "weight": 29,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Basketball Court",
+      "to": "GEU Btech Block",
+      "weight": 75,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Pharma Block",
+      "to": "Junction (residential) #5",
+      "weight": 56,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Pharma Block",
+      "to": "Junction (residential) #4",
+      "weight": 77,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Pharma Block",
+      "to": "Junction (service) #5",
+      "weight": 107,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Pharma Block",
+      "to": "GEU Law Block",
+      "weight": 115,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Law Block",
+      "to": "Junction (service) #5",
+      "weight": 51,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Law Block",
+      "to": "Junction (Bell Road & service) #2",
+      "weight": 75,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Law Block",
+      "to": "GEU Girls Hostel",
+      "weight": 96,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Law Block",
+      "to": "Junction (Bell Road & residential)",
+      "weight": 103,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Global School",
+      "to": "Junction (Lane No. 11 & path)",
+      "weight": 54,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Global School",
+      "to": "Junction (Post Office Road)",
+      "weight": 63,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Global School",
+      "to": "GEU Gate 2",
+      "weight": 71,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Global School",
+      "to": "Junction (Lane No. 11 & residential)",
+      "weight": 97,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Global School",
+      "to": "Junction (Post Office Road & residential)",
+      "weight": 103,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "St Paul Hospital",
+      "to": "Junction (St. Mary's Church Road & path)",
+      "weight": 39,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "St Paul Hospital",
+      "to": "Junction (Post Office Road & St. Mary's Church Road)",
+      "weight": 62,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "St Paul Hospital",
+      "to": "Junction (Bell Road & Post Office Road)",
+      "weight": 84,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "St Paul Hospital",
+      "to": "St Paul High School",
+      "weight": 95,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "St Paul Hospital",
+      "to": "Junction (service) #6",
+      "weight": 101,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU PNB ATM",
+      "to": "GEU Main Gate",
+      "weight": 10,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU PNB ATM",
+      "to": "Junction (service) #2",
+      "weight": 45,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU PNB ATM",
+      "to": "Junction (Bell Road & residential) #2",
+      "weight": 53,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Main Gate",
+      "to": "Junction (Bell Road & residential) #2",
+      "weight": 43,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Main Gate",
+      "to": "Junction (service) #2",
+      "weight": 45,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Gate 2",
+      "to": "Junction (service) #6",
+      "weight": 61,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Gate 2",
+      "to": "Junction (Lane No. 11 & path)",
+      "weight": 80,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Gate 2",
+      "to": "Junction (Post Office Road & St. Mary's Church Road)",
+      "weight": 87,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Boys Hostel",
+      "to": "Junction (residential) #2",
+      "weight": 31,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "GEU Boys Hostel",
+      "to": "Junction (service) #4",
+      "weight": 53,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & Post Office Road)",
+      "to": "Junction (residential & service)",
+      "weight": 88,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & Post Office Road)",
+      "to": "Junction (Post Office Road & St. Mary's Church Road)",
+      "weight": 109,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & Post Office Road)",
+      "to": "Junction (St. Mary's Church Road & path)",
+      "weight": 119,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential)",
+      "to": "Junction (residential & service)",
+      "weight": 52,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential)",
+      "to": "GEU Convention Centre",
+      "weight": 103,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential)",
+      "to": "Junction (Bell Road & service)",
+      "weight": 107,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential)",
+      "to": "Junction (Bell Road & Post Office Road)",
+      "weight": 134,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential)",
+      "to": "St Paul High School",
+      "weight": 148,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Lane No. 11 & residential)",
+      "to": "Junction (Lane No. 11 & path)",
+      "weight": 58,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Lane No. 11 & residential)",
+      "to": "Junction (St. Mary's Church Road & residential)",
+      "weight": 99,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Lane No. 11 & residential)",
+      "to": "Junction (St. Mary's Church Road & path)",
+      "weight": 118,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Lane No. 11 & residential)",
+      "to": "GEU Gate 2",
+      "weight": 138,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Post Office Road & St. Mary's Church Road)",
+      "to": "Junction (service) #6",
+      "weight": 41,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Post Office Road & St. Mary's Church Road)",
+      "to": "Junction (residential & service) #2",
+      "weight": 77,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Post Office Road & St. Mary's Church Road)",
+      "to": "Junction (St. Mary's Church Road & path)",
+      "weight": 86,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (St. Mary's Church Road & path)",
+      "to": "Junction (St. Mary's Church Road & residential)",
+      "weight": 71,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (St. Mary's Church Road & path)",
+      "to": "Junction (Lane No. 11 & path)",
+      "weight": 99,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (St. Mary's Church Road & path)",
+      "to": "Junction (service) #6",
+      "weight": 116,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (St. Mary's Church Road & residential)",
+      "to": "St Paul Hospital",
+      "weight": 106,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (St. Mary's Church Road & residential)",
+      "to": "Junction (Lane No. 11 & path)",
+      "weight": 117,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (St. Mary's Church Road & residential)",
+      "to": "Junction (Post Office Road & St. Mary's Church Road)",
+      "weight": 156,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential & service)",
+      "to": "Junction (Bell Road & service)",
+      "weight": 79,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential & service)",
+      "to": "St Paul High School",
+      "weight": 96,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential & service)",
+      "to": "GEU Convention Centre",
+      "weight": 104,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & service)",
+      "to": "GEU Priyadarshini Hostel",
+      "weight": 88,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & service)",
+      "to": "GEU PNB ATM",
+      "weight": 90,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & service)",
+      "to": "GEU Dispensary",
+      "weight": 94,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & residential)",
+      "to": "GEU Mess",
+      "weight": 94,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & residential)",
+      "to": "Junction (service) #4",
+      "weight": 112,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & residential)",
+      "to": "GEU Boys Hostel",
+      "weight": 113,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & service) #2",
+      "to": "Junction (service) #5",
+      "weight": 43,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & service) #2",
+      "to": "Junction (service) #4",
+      "weight": 55,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & service) #2",
+      "to": "Junction (Bell Road & residential) #2",
+      "weight": 64,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Bell Road & residential) #2",
+      "to": "Junction (service) #2",
+      "weight": 75,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Lane No. 11 & path)",
+      "to": "Junction (Post Office Road)",
+      "weight": 116,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #2",
+      "to": "GEU Indoor Badminton Court",
+      "weight": 78,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #2",
+      "to": "Junction (service) #9",
+      "weight": 79,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #3",
+      "to": "GEU Basketball Court",
+      "weight": 104,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #3",
+      "to": "GEU Chanakya Block",
+      "weight": 124,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #3",
+      "to": "Junction (service) #10",
+      "weight": 128,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #3",
+      "to": "GEU Param Computer Centre",
+      "weight": 133,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #3",
+      "to": "GEU Civil Block",
+      "weight": 134,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #4",
+      "to": "Junction (residential) #5",
+      "weight": 51,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #4",
+      "to": "GEU CSIT Building",
+      "weight": 126,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #4",
+      "to": "Junction (service) #5",
+      "weight": 173,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #5",
+      "to": "Junction (service) #5",
+      "weight": 163,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential) #5",
+      "to": "GEU Law Block",
+      "weight": 167,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (residential & service) #2",
+      "to": "Junction (service) #6",
+      "weight": 70,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service)",
+      "to": "GEU Petroleum Block",
+      "weight": 59,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service)",
+      "to": "GEU Mechanical Block",
+      "weight": 70,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #2",
+      "to": "Junction (service) #3",
+      "weight": 61,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #3",
+      "to": "Junction (service) #9",
+      "weight": 29,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #3",
+      "to": "GEU Btech Block",
+      "weight": 57,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #3",
+      "to": "GEU Aryabhatta Computer Center",
+      "weight": 72,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #3",
+      "to": "GEU Cafe and Gym",
+      "weight": 77,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #4",
+      "to": "Junction (Bell Road & residential) #2",
+      "weight": 82,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #5",
+      "to": "Junction (Bell Road & residential) #2",
+      "weight": 87,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #5",
+      "to": "Junction (service) #4",
+      "weight": 97,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #6",
+      "to": "St Paul High School",
+      "weight": 101,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #7",
+      "to": "Junction (service) #8",
+      "weight": 50,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #8",
+      "to": "GEU KP Nautiyal Block",
+      "weight": 72,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #9",
+      "to": "GEU Aryabhatta Computer Center",
+      "weight": 79,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (service) #10",
+      "to": "GEU Param Computer Centre",
+      "weight": 56,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Post Office Road)",
+      "to": "Junction (Post Office Road & residential)",
+      "weight": 49,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Post Office Road)",
+      "to": "GEU Gate 2",
+      "weight": 87,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Post Office Road)",
+      "to": "GEU Bus Parking",
+      "weight": 130,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Post Office Road & residential)",
+      "to": "GEU Gate 2",
+      "weight": 136,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Post Office Road & residential)",
+      "to": "Junction (Lane No. 11 & path)",
+      "weight": 158,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "Junction (Post Office Road & residential)",
+      "to": "GEU Bus Parking",
+      "weight": 170,
+      "type": "OUTDOOR"
+    },
+    {
+      "from": "CSIT-G-Entrance",
+      "to": "CSIT-G-Lobby",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Lobby",
+      "to": "CSIT-G-Lab101",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Lobby",
+      "to": "CSIT-G-Lab102",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Lobby",
+      "to": "CSIT-G-Stairs",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Lab101",
+      "to": "CSIT-G-Lab102",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Stairs",
+      "to": "CSIT-1-Landing",
+      "weight": 15,
+      "type": "INDOOR",
+      "isStairs": true
+    },
+    {
+      "from": "CSIT-1-Landing",
+      "to": "CSIT-1-Corridor",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Corridor",
+      "to": "CSIT-1-Room201",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Corridor",
+      "to": "CSIT-1-Room202",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Corridor",
+      "to": "CSIT-1-Room203",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Landing",
+      "to": "CSIT-1-Stairs",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Stairs",
+      "to": "CSIT-2-Landing",
+      "weight": 15,
+      "type": "INDOOR",
+      "isStairs": true
+    },
+    {
+      "from": "CSIT-2-Landing",
+      "to": "CSIT-2-Corridor",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Corridor",
+      "to": "CSIT-2-Room301",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Corridor",
+      "to": "CSIT-2-Room302",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Corridor",
+      "to": "CSIT-2-HODOffice",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "GEU CSIT Building",
+      "to": "CSIT-G-Entrance",
+      "weight": 2,
+      "type": "INDOOR"
+    },
+    {
+      "from": "LIB-G-Entrance",
+      "to": "LIB-G-Reception",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "LIB-G-Reception",
+      "to": "LIB-G-IssuingCounter",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "LIB-G-Reception",
+      "to": "LIB-G-ReadingHall",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "LIB-G-ReadingHall",
+      "to": "LIB-G-Stacks",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "LIB-G-Reception",
+      "to": "LIB-G-Stairs",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "LIB-G-Stairs",
+      "to": "LIB-1-Landing",
+      "weight": 15,
+      "type": "INDOOR",
+      "isStairs": true
+    },
+    {
+      "from": "LIB-1-Landing",
+      "to": "LIB-1-DigitalSection",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "LIB-1-Landing",
+      "to": "LIB-1-Periodicals",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "LIB-1-Landing",
+      "to": "LIB-1-SilentZone",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "GEU Santoshanand Library",
+      "to": "LIB-G-Entrance",
+      "weight": 2,
+      "type": "INDOOR"
+    },
+    {
+      "from": "MECH-G-Entrance",
+      "to": "MECH-G-Lobby",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "MECH-G-Lobby",
+      "to": "MECH-G-Workshop",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "MECH-G-Lobby",
+      "to": "MECH-G-DrawingHall",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "MECH-G-Lobby",
+      "to": "MECH-G-Stairs",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "MECH-G-Stairs",
+      "to": "MECH-1-Landing",
+      "weight": 15,
+      "type": "INDOOR",
+      "isStairs": true
+    },
+    {
+      "from": "MECH-1-Landing",
+      "to": "MECH-1-CADLab",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "MECH-1-Landing",
+      "to": "MECH-1-HOD",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "GEU Mechanical Block",
+      "to": "MECH-G-Entrance",
+      "weight": 2,
+      "type": "INDOOR"
+    }
+  ]
+}

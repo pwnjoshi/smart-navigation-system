@@ -1,0 +1,43 @@
+# ── Java / Maven ──
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# ── Maven wrapper ──
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# ── IDE ──
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Environment ──
+.env
+.env.local
+.env.*.local
+
+# ── Node (if any frontend tooling) ──
+node_modules/
+dist/
+.cache/
+
+# ── Misc ──
+*.bak
+*.tmp

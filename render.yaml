@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: smart-navigation-backend
+    env: java
+    buildCommand: cd backend && ./mvnw clean package -DskipTests
+    startCommand: java -jar backend/target/navigation-0.0.1-SNAPSHOT.jar
+    envVars:
+      - key: PORT
+        value: 8080
