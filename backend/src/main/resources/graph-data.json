@@ -10,6 +10,15 @@
       "floor": 0
     },
     {
+      "id": "GEU Basketball Court",
+      "category": "Ground",
+      "lat": 30.2670208,
+      "lng": 77.9959588,
+      "x": 0.5289,
+      "y": 0.7911,
+      "floor": 0
+    },
+    {
       "id": "GEU Boys Hostel",
       "category": "Building",
       "lat": 30.2673872,
@@ -28,12 +37,30 @@
       "floor": 0
     },
     {
+      "id": "GEU Bus Parking",
+      "category": "Landmark",
+      "lat": 30.2683961,
+      "lng": 77.9971826,
+      "x": 0.7029,
+      "y": 0.4809,
+      "floor": 0
+    },
+    {
       "id": "GEU CSIT Building",
       "category": "Building",
       "lat": 30.2689524,
       "lng": 77.9931805,
       "x": 0.1339,
       "y": 0.3555,
+      "floor": 0
+    },
+    {
+      "id": "GEU Cafe and Gym",
+      "category": "Cafe",
+      "lat": 30.267141,
+      "lng": 77.9946686,
+      "x": 0.3455,
+      "y": 0.764,
       "floor": 0
     },
     {
@@ -64,12 +91,48 @@
       "floor": 0
     },
     {
+      "id": "GEU Dispensary",
+      "category": "Medical",
+      "lat": 30.2685381,
+      "lng": 77.9950326,
+      "x": 0.3973,
+      "y": 0.4489,
+      "floor": 0
+    },
+    {
+      "id": "GEU Gate 2",
+      "category": "Landmark",
+      "lat": 30.2687162,
+      "lng": 77.9978834,
+      "x": 0.8025,
+      "y": 0.4087,
+      "floor": 0
+    },
+    {
       "id": "GEU Girls Hostel",
       "category": "Building",
       "lat": 30.2676849,
       "lng": 77.9936119,
       "x": 0.1953,
       "y": 0.6413,
+      "floor": 0
+    },
+    {
+      "id": "GEU Global School",
+      "category": "External",
+      "lat": 30.2687048,
+      "lng": 77.9986215,
+      "x": 0.9075,
+      "y": 0.4113,
+      "floor": 0
+    },
+    {
+      "id": "GEU Indoor Badminton Court",
+      "category": "Ground",
+      "lat": 30.266882,
+      "lng": 77.9950234,
+      "x": 0.3959,
+      "y": 0.8224,
       "floor": 0
     },
     {
@@ -91,12 +154,30 @@
       "floor": 0
     },
     {
+      "id": "GEU Main Gate",
+      "category": "Landmark",
+      "lat": 30.2686271,
+      "lng": 77.9947947,
+      "x": 0.3634,
+      "y": 0.4288,
+      "floor": 0
+    },
+    {
       "id": "GEU Mechanical Block",
       "category": "Building",
       "lat": 30.2680461,
       "lng": 77.9962422,
       "x": 0.5692,
       "y": 0.5599,
+      "floor": 0
+    },
+    {
+      "id": "GEU Mess",
+      "category": "Cafe",
+      "lat": 30.2676247,
+      "lng": 77.993928,
+      "x": 0.2402,
+      "y": 0.6549,
       "floor": 0
     },
     {
@@ -160,105 +241,6 @@
       "lng": 77.995739,
       "x": 0.4977,
       "y": 0.7306,
-      "floor": 0
-    },
-    {
-      "id": "GEU Cafe and Gym",
-      "category": "Cafe",
-      "lat": 30.267141,
-      "lng": 77.9946686,
-      "x": 0.3455,
-      "y": 0.764,
-      "floor": 0
-    },
-    {
-      "id": "GEU Mess",
-      "category": "Cafe",
-      "lat": 30.2676247,
-      "lng": 77.993928,
-      "x": 0.2402,
-      "y": 0.6549,
-      "floor": 0
-    },
-    {
-      "id": "GEU Global School",
-      "category": "External",
-      "lat": 30.2687048,
-      "lng": 77.9986215,
-      "x": 0.9075,
-      "y": 0.4113,
-      "floor": 0
-    },
-    {
-      "id": "St Paul High School",
-      "category": "External",
-      "lat": 30.2694524,
-      "lng": 77.9964712,
-      "x": 0.6018,
-      "y": 0.2427,
-      "floor": 0
-    },
-    {
-      "id": "GEU Basketball Court",
-      "category": "Ground",
-      "lat": 30.2670208,
-      "lng": 77.9959588,
-      "x": 0.5289,
-      "y": 0.7911,
-      "floor": 0
-    },
-    {
-      "id": "GEU Indoor Badminton Court",
-      "category": "Ground",
-      "lat": 30.266882,
-      "lng": 77.9950234,
-      "x": 0.3959,
-      "y": 0.8224,
-      "floor": 0
-    },
-    {
-      "id": "GEU Bus Parking",
-      "category": "Landmark",
-      "lat": 30.2683961,
-      "lng": 77.9971826,
-      "x": 0.7029,
-      "y": 0.4809,
-      "floor": 0
-    },
-    {
-      "id": "GEU Gate 2",
-      "category": "Landmark",
-      "lat": 30.2687162,
-      "lng": 77.9978834,
-      "x": 0.8025,
-      "y": 0.4087,
-      "floor": 0
-    },
-    {
-      "id": "GEU Main Gate",
-      "category": "Landmark",
-      "lat": 30.2686271,
-      "lng": 77.9947947,
-      "x": 0.3634,
-      "y": 0.4288,
-      "floor": 0
-    },
-    {
-      "id": "GEU Dispensary",
-      "category": "Medical",
-      "lat": 30.2685381,
-      "lng": 77.9950326,
-      "x": 0.3973,
-      "y": 0.4489,
-      "floor": 0
-    },
-    {
-      "id": "St Paul Hospital",
-      "category": "Medical",
-      "lat": 30.2697687,
-      "lng": 77.9973892,
-      "x": 0.7323,
-      "y": 0.1714,
       "floor": 0
     },
     {
@@ -523,136 +505,34 @@
       "floor": 0
     },
     {
-      "id": "CSIT-1-Corridor",
-      "category": "IndoorNode",
-      "building": "GEU CSIT Building",
-      "floor": 1,
-      "indoor": true,
-      "label": "1st Floor Corridor",
-      "lat": 30.2689524,
-      "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
+      "id": "St Paul High School",
+      "category": "External",
+      "lat": 30.2694524,
+      "lng": 77.9964712,
+      "x": 0.6018,
+      "y": 0.2427,
+      "floor": 0
     },
     {
-      "id": "CSIT-1-Landing",
-      "category": "IndoorNode",
-      "building": "GEU CSIT Building",
-      "floor": 1,
-      "indoor": true,
-      "label": "1st Floor Landing",
-      "lat": 30.2689524,
-      "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
+      "id": "St Paul Hospital",
+      "category": "Medical",
+      "lat": 30.2697687,
+      "lng": 77.9973892,
+      "x": 0.7323,
+      "y": 0.1714,
+      "floor": 0
     },
     {
-      "id": "CSIT-1-Room201",
+      "id": "CSIT-G-Corridor",
       "category": "IndoorNode",
       "building": "GEU CSIT Building",
-      "floor": 1,
+      "floor": 0,
       "indoor": true,
-      "label": "Room 201 - AI Lab",
+      "label": "Ground Floor Corridor",
       "lat": 30.2689524,
       "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
-    },
-    {
-      "id": "CSIT-1-Room202",
-      "category": "IndoorNode",
-      "building": "GEU CSIT Building",
-      "floor": 1,
-      "indoor": true,
-      "label": "Room 202 - Seminar Hall",
-      "lat": 30.2689524,
-      "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
-    },
-    {
-      "id": "CSIT-1-Room203",
-      "category": "IndoorNode",
-      "building": "GEU CSIT Building",
-      "floor": 1,
-      "indoor": true,
-      "label": "Room 203 - Faculty Room",
-      "lat": 30.2689524,
-      "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
-    },
-    {
-      "id": "CSIT-1-Stairs",
-      "category": "IndoorNode",
-      "building": "GEU CSIT Building",
-      "floor": 1,
-      "indoor": true,
-      "label": "Stairs (1st Floor)",
-      "lat": 30.2689524,
-      "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
-    },
-    {
-      "id": "CSIT-2-Corridor",
-      "category": "IndoorNode",
-      "building": "GEU CSIT Building",
-      "floor": 2,
-      "indoor": true,
-      "label": "2nd Floor Corridor",
-      "lat": 30.2689524,
-      "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
-    },
-    {
-      "id": "CSIT-2-HODOffice",
-      "category": "IndoorNode",
-      "building": "GEU CSIT Building",
-      "floor": 2,
-      "indoor": true,
-      "label": "HOD Office - CS Dept",
-      "lat": 30.2689524,
-      "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
-    },
-    {
-      "id": "CSIT-2-Landing",
-      "category": "IndoorNode",
-      "building": "GEU CSIT Building",
-      "floor": 2,
-      "indoor": true,
-      "label": "2nd Floor Landing",
-      "lat": 30.2689524,
-      "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
-    },
-    {
-      "id": "CSIT-2-Room301",
-      "category": "IndoorNode",
-      "building": "GEU CSIT Building",
-      "floor": 2,
-      "indoor": true,
-      "label": "Room 301 - Data Center",
-      "lat": 30.2689524,
-      "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
-    },
-    {
-      "id": "CSIT-2-Room302",
-      "category": "IndoorNode",
-      "building": "GEU CSIT Building",
-      "floor": 2,
-      "indoor": true,
-      "label": "Room 302 - Research Lab",
-      "lat": 30.2689524,
-      "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
+      "x": 0.5,
+      "y": 0.5
     },
     {
       "id": "CSIT-G-Entrance",
@@ -660,10 +540,11 @@
       "building": "GEU CSIT Building",
       "floor": 0,
       "indoor": true,
+      "label": "Main Entrance",
       "lat": 30.2689524,
       "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
+      "x": 0.5,
+      "y": 0.95
     },
     {
       "id": "CSIT-G-Lab101",
@@ -674,8 +555,8 @@
       "label": "Lab 101 - Computer Lab",
       "lat": 30.2689524,
       "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
+      "x": 0.2,
+      "y": 0.4
     },
     {
       "id": "CSIT-G-Lab102",
@@ -686,8 +567,32 @@
       "label": "Lab 102 - Network Lab",
       "lat": 30.2689524,
       "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
+      "x": 0.2,
+      "y": 0.6
+    },
+    {
+      "id": "CSIT-G-Lab103",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "label": "Lab 103 - Hardware Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.2,
+      "y": 0.8
+    },
+    {
+      "id": "CSIT-G-Lift",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "label": "Lift (Ground)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.65,
+      "y": 0.2
     },
     {
       "id": "CSIT-G-Lobby",
@@ -698,8 +603,44 @@
       "label": "Ground Floor Lobby",
       "lat": 30.2689524,
       "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
+      "x": 0.5,
+      "y": 0.75
+    },
+    {
+      "id": "CSIT-G-Office",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "label": "Admin Office",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.8,
+      "y": 0.4
+    },
+    {
+      "id": "CSIT-G-Reception",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "label": "Reception Desk",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.6,
+      "y": 0.75
+    },
+    {
+      "id": "CSIT-G-ServerRoom",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "label": "Server Room",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.8,
+      "y": 0.6
     },
     {
       "id": "CSIT-G-Stairs",
@@ -710,56 +651,595 @@
       "label": "Stairs (Ground)",
       "lat": 30.2689524,
       "lng": 77.9931805,
-      "x": 0.1339,
-      "y": 0.3555
+      "x": 0.35,
+      "y": 0.2
     },
     {
-      "id": "LIB-1-DigitalSection",
+      "id": "CSIT-G-Washroom",
       "category": "IndoorNode",
-      "building": "GEU Santoshanand Library",
+      "building": "GEU CSIT Building",
+      "floor": 0,
+      "indoor": true,
+      "label": "Washroom (Ground)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.8,
+      "y": 0.8
+    },
+    {
+      "id": "CSIT-1-Corridor",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
       "floor": 1,
       "indoor": true,
-      "label": "Digital Resources Section",
-      "lat": 30.2672891,
-      "lng": 77.995739,
-      "x": 0.4977,
-      "y": 0.7306
+      "label": "1st Floor Corridor",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.5,
+      "y": 0.45
     },
     {
-      "id": "LIB-1-Landing",
+      "id": "CSIT-1-Landing",
       "category": "IndoorNode",
-      "building": "GEU Santoshanand Library",
+      "building": "GEU CSIT Building",
       "floor": 1,
       "indoor": true,
       "label": "1st Floor Landing",
-      "lat": 30.2672891,
-      "lng": 77.995739,
-      "x": 0.4977,
-      "y": 0.7306
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.35,
+      "y": 0.2
     },
     {
-      "id": "LIB-1-Periodicals",
+      "id": "CSIT-1-LiftLanding",
       "category": "IndoorNode",
-      "building": "GEU Santoshanand Library",
+      "building": "GEU CSIT Building",
       "floor": 1,
       "indoor": true,
-      "label": "Periodicals & Journals",
-      "lat": 30.2672891,
-      "lng": 77.995739,
-      "x": 0.4977,
-      "y": 0.7306
+      "label": "Lift (1st Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.65,
+      "y": 0.2
     },
     {
-      "id": "LIB-1-SilentZone",
+      "id": "CSIT-1-Room201",
       "category": "IndoorNode",
-      "building": "GEU Santoshanand Library",
+      "building": "GEU CSIT Building",
       "floor": 1,
       "indoor": true,
-      "label": "Silent Study Zone",
-      "lat": 30.2672891,
-      "lng": 77.995739,
-      "x": 0.4977,
-      "y": 0.7306
+      "label": "Room 201 - AI Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.35
+    },
+    {
+      "id": "CSIT-1-Room202",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "Room 202 - Seminar Hall",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.55
+    },
+    {
+      "id": "CSIT-1-Room203",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "Room 203 - Faculty Room",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.75
+    },
+    {
+      "id": "CSIT-1-Room204",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "Room 204 - Tutorial Room",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.35
+    },
+    {
+      "id": "CSIT-1-Room205",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "Room 205 - Project Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.55
+    },
+    {
+      "id": "CSIT-1-Stairs",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "Stairs (1st Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.35,
+      "y": 0.2
+    },
+    {
+      "id": "CSIT-1-Washroom",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 1,
+      "indoor": true,
+      "label": "Washroom (1st Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.75
+    },
+    {
+      "id": "CSIT-2-Corridor",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "2nd Floor Corridor",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.5,
+      "y": 0.45
+    },
+    {
+      "id": "CSIT-2-FacultyRoom",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "Faculty Cabin Area",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.55
+    },
+    {
+      "id": "CSIT-2-HODOffice",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "HOD Office - CS Dept",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.35
+    },
+    {
+      "id": "CSIT-2-Landing",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "2nd Floor Landing",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.35,
+      "y": 0.2
+    },
+    {
+      "id": "CSIT-2-LiftLanding",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "Lift (2nd Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.65,
+      "y": 0.2
+    },
+    {
+      "id": "CSIT-2-Room301",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "Room 301 - Data Center",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.35
+    },
+    {
+      "id": "CSIT-2-Room302",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "Room 302 - Research Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.55
+    },
+    {
+      "id": "CSIT-2-Room303",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "Room 303 - Cyber Security Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.75
+    },
+    {
+      "id": "CSIT-2-Stairs",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "Stairs (2nd Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.35,
+      "y": 0.2
+    },
+    {
+      "id": "CSIT-2-Washroom",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 2,
+      "indoor": true,
+      "label": "Washroom (2nd Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.75
+    },
+    {
+      "id": "CSIT-3-ConferenceRoom",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 3,
+      "indoor": true,
+      "label": "Conference Room",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.55
+    },
+    {
+      "id": "CSIT-3-Corridor",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 3,
+      "indoor": true,
+      "label": "3rd Floor Corridor",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.5,
+      "y": 0.45
+    },
+    {
+      "id": "CSIT-3-Landing",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 3,
+      "indoor": true,
+      "label": "3rd Floor Landing",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.35,
+      "y": 0.2
+    },
+    {
+      "id": "CSIT-3-LiftLanding",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 3,
+      "indoor": true,
+      "label": "Lift (3rd Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.65,
+      "y": 0.2
+    },
+    {
+      "id": "CSIT-3-Room401",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 3,
+      "indoor": true,
+      "label": "Room 401 - IoT Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.35
+    },
+    {
+      "id": "CSIT-3-Room402",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 3,
+      "indoor": true,
+      "label": "Room 402 - Cloud Computing Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.55
+    },
+    {
+      "id": "CSIT-3-Room403",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 3,
+      "indoor": true,
+      "label": "Room 403 - Software Engg Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.75
+    },
+    {
+      "id": "CSIT-3-Room404",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 3,
+      "indoor": true,
+      "label": "Room 404 - Multimedia Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.35
+    },
+    {
+      "id": "CSIT-3-Stairs",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 3,
+      "indoor": true,
+      "label": "Stairs (3rd Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.35,
+      "y": 0.2
+    },
+    {
+      "id": "CSIT-3-Washroom",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 3,
+      "indoor": true,
+      "label": "Washroom (3rd Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.75
+    },
+    {
+      "id": "CSIT-4-Corridor",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 4,
+      "indoor": true,
+      "label": "4th Floor Corridor",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.5,
+      "y": 0.45
+    },
+    {
+      "id": "CSIT-4-DeanOffice",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 4,
+      "indoor": true,
+      "label": "Dean Office - IT",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.35
+    },
+    {
+      "id": "CSIT-4-Landing",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 4,
+      "indoor": true,
+      "label": "4th Floor Landing",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.35,
+      "y": 0.2
+    },
+    {
+      "id": "CSIT-4-LiftLanding",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 4,
+      "indoor": true,
+      "label": "Lift (4th Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.65,
+      "y": 0.2
+    },
+    {
+      "id": "CSIT-4-Room501",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 4,
+      "indoor": true,
+      "label": "Room 501 - MCA Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.35
+    },
+    {
+      "id": "CSIT-4-Room502",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 4,
+      "indoor": true,
+      "label": "Room 502 - BCA Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.55
+    },
+    {
+      "id": "CSIT-4-Room503",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 4,
+      "indoor": true,
+      "label": "Room 503 - Open Lab",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.15,
+      "y": 0.75
+    },
+    {
+      "id": "CSIT-4-StaffRoom",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 4,
+      "indoor": true,
+      "label": "Staff Common Room",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.55
+    },
+    {
+      "id": "CSIT-4-Terrace",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 4,
+      "indoor": true,
+      "label": "Terrace Access",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.5,
+      "y": 0.9
+    },
+    {
+      "id": "CSIT-4-Washroom",
+      "category": "IndoorNode",
+      "building": "GEU CSIT Building",
+      "floor": 4,
+      "indoor": true,
+      "label": "Washroom (4th Floor)",
+      "lat": 30.2689524,
+      "lng": 77.9931805,
+      "x": 0.85,
+      "y": 0.75
+    },
+    {
+      "id": "MECH-G-DrawingHall",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 0,
+      "indoor": true,
+      "label": "Drawing Hall",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-G-Entrance",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 0,
+      "indoor": true,
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-G-Lobby",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 0,
+      "indoor": true,
+      "label": "Main Lobby",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-G-Stairs",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 0,
+      "indoor": true,
+      "label": "Stairs",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-G-Workshop",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 0,
+      "indoor": true,
+      "label": "Workshop / Machine Lab",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-1-CADLab",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 1,
+      "indoor": true,
+      "label": "CAD/CAM Lab",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-1-HOD",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 1,
+      "indoor": true,
+      "label": "HOD Office - Mechanical",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
+    },
+    {
+      "id": "MECH-1-Landing",
+      "category": "IndoorNode",
+      "building": "GEU Mechanical Block",
+      "floor": 1,
+      "indoor": true,
+      "label": "1st Floor Landing",
+      "lat": 30.2680461,
+      "lng": 77.9962422,
+      "x": 0.5692,
+      "y": 0.5599
     },
     {
       "id": "LIB-G-Entrance",
@@ -833,99 +1313,52 @@
       "y": 0.7306
     },
     {
-      "id": "MECH-1-CADLab",
+      "id": "LIB-1-DigitalSection",
       "category": "IndoorNode",
-      "building": "GEU Mechanical Block",
+      "building": "GEU Santoshanand Library",
       "floor": 1,
       "indoor": true,
-      "label": "CAD/CAM Lab",
-      "lat": 30.2680461,
-      "lng": 77.9962422,
-      "x": 0.5692,
-      "y": 0.5599
+      "label": "Digital Resources Section",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
     },
     {
-      "id": "MECH-1-HOD",
+      "id": "LIB-1-Landing",
       "category": "IndoorNode",
-      "building": "GEU Mechanical Block",
-      "floor": 1,
-      "indoor": true,
-      "label": "HOD Office - Mechanical",
-      "lat": 30.2680461,
-      "lng": 77.9962422,
-      "x": 0.5692,
-      "y": 0.5599
-    },
-    {
-      "id": "MECH-1-Landing",
-      "category": "IndoorNode",
-      "building": "GEU Mechanical Block",
+      "building": "GEU Santoshanand Library",
       "floor": 1,
       "indoor": true,
       "label": "1st Floor Landing",
-      "lat": 30.2680461,
-      "lng": 77.9962422,
-      "x": 0.5692,
-      "y": 0.5599
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
     },
     {
-      "id": "MECH-G-DrawingHall",
+      "id": "LIB-1-Periodicals",
       "category": "IndoorNode",
-      "building": "GEU Mechanical Block",
-      "floor": 0,
+      "building": "GEU Santoshanand Library",
+      "floor": 1,
       "indoor": true,
-      "label": "Drawing Hall",
-      "lat": 30.2680461,
-      "lng": 77.9962422,
-      "x": 0.5692,
-      "y": 0.5599
+      "label": "Periodicals & Journals",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
     },
     {
-      "id": "MECH-G-Entrance",
+      "id": "LIB-1-SilentZone",
       "category": "IndoorNode",
-      "building": "GEU Mechanical Block",
-      "floor": 0,
+      "building": "GEU Santoshanand Library",
+      "floor": 1,
       "indoor": true,
-      "lat": 30.2680461,
-      "lng": 77.9962422,
-      "x": 0.5692,
-      "y": 0.5599
-    },
-    {
-      "id": "MECH-G-Lobby",
-      "category": "IndoorNode",
-      "building": "GEU Mechanical Block",
-      "floor": 0,
-      "indoor": true,
-      "label": "Main Lobby",
-      "lat": 30.2680461,
-      "lng": 77.9962422,
-      "x": 0.5692,
-      "y": 0.5599
-    },
-    {
-      "id": "MECH-G-Stairs",
-      "category": "IndoorNode",
-      "building": "GEU Mechanical Block",
-      "floor": 0,
-      "indoor": true,
-      "label": "Stairs",
-      "lat": 30.2680461,
-      "lng": 77.9962422,
-      "x": 0.5692,
-      "y": 0.5599
-    },
-    {
-      "id": "MECH-G-Workshop",
-      "category": "IndoorNode",
-      "building": "GEU Mechanical Block",
-      "floor": 0,
-      "indoor": true,
-      "label": "Workshop / Machine Lab",
-      "lat": 30.2680461,
-      "lng": 77.9962422,
-      "x": 0.5692,
-      "y": 0.5599
+      "label": "Silent Study Zone",
+      "lat": 30.2672891,
+      "lng": 77.995739,
+      "x": 0.4977,
+      "y": 0.7306
     }
   ],
   "edges": [
@@ -2016,110 +2449,6 @@
       "type": "OUTDOOR"
     },
     {
-      "from": "CSIT-G-Entrance",
-      "to": "CSIT-G-Lobby",
-      "weight": 5,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-G-Lobby",
-      "to": "CSIT-G-Lab101",
-      "weight": 10,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-G-Lobby",
-      "to": "CSIT-G-Lab102",
-      "weight": 10,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-G-Lobby",
-      "to": "CSIT-G-Stairs",
-      "weight": 8,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-G-Lab101",
-      "to": "CSIT-G-Lab102",
-      "weight": 8,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-G-Stairs",
-      "to": "CSIT-1-Landing",
-      "weight": 15,
-      "type": "INDOOR",
-      "isStairs": true
-    },
-    {
-      "from": "CSIT-1-Landing",
-      "to": "CSIT-1-Corridor",
-      "weight": 5,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-1-Corridor",
-      "to": "CSIT-1-Room201",
-      "weight": 10,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-1-Corridor",
-      "to": "CSIT-1-Room202",
-      "weight": 10,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-1-Corridor",
-      "to": "CSIT-1-Room203",
-      "weight": 12,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-1-Landing",
-      "to": "CSIT-1-Stairs",
-      "weight": 5,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-1-Stairs",
-      "to": "CSIT-2-Landing",
-      "weight": 15,
-      "type": "INDOOR",
-      "isStairs": true
-    },
-    {
-      "from": "CSIT-2-Landing",
-      "to": "CSIT-2-Corridor",
-      "weight": 5,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-2-Corridor",
-      "to": "CSIT-2-Room301",
-      "weight": 10,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-2-Corridor",
-      "to": "CSIT-2-Room302",
-      "weight": 10,
-      "type": "INDOOR"
-    },
-    {
-      "from": "CSIT-2-Corridor",
-      "to": "CSIT-2-HODOffice",
-      "weight": 12,
-      "type": "INDOOR"
-    },
-    {
-      "from": "GEU CSIT Building",
-      "to": "CSIT-G-Entrance",
-      "weight": 2,
-      "type": "INDOOR"
-    },
-    {
       "from": "LIB-G-Entrance",
       "to": "LIB-G-Reception",
       "weight": 5,
@@ -2226,6 +2555,460 @@
     {
       "from": "GEU Mechanical Block",
       "to": "MECH-G-Entrance",
+      "weight": 2,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Entrance",
+      "to": "CSIT-G-Lobby",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Lobby",
+      "to": "CSIT-G-Reception",
+      "weight": 3,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Lobby",
+      "to": "CSIT-G-Corridor",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Corridor",
+      "to": "CSIT-G-Lab101",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Corridor",
+      "to": "CSIT-G-Lab102",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Lobby",
+      "to": "CSIT-G-Lab103",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Lab101",
+      "to": "CSIT-G-Lab102",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Lab102",
+      "to": "CSIT-G-Lab103",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Corridor",
+      "to": "CSIT-G-Office",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Corridor",
+      "to": "CSIT-G-ServerRoom",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Lobby",
+      "to": "CSIT-G-Washroom",
+      "weight": 15,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Corridor",
+      "to": "CSIT-G-Stairs",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Corridor",
+      "to": "CSIT-G-Lift",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Stairs",
+      "to": "CSIT-G-Lift",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-G-Stairs",
+      "to": "CSIT-1-Landing",
+      "weight": 15,
+      "type": "INDOOR",
+      "isStairs": true
+    },
+    {
+      "from": "CSIT-G-Lift",
+      "to": "CSIT-1-LiftLanding",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Landing",
+      "to": "CSIT-1-Corridor",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-LiftLanding",
+      "to": "CSIT-1-Corridor",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Corridor",
+      "to": "CSIT-1-Room201",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Corridor",
+      "to": "CSIT-1-Room202",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Corridor",
+      "to": "CSIT-1-Room203",
+      "weight": 15,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Room201",
+      "to": "CSIT-1-Room202",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Room202",
+      "to": "CSIT-1-Room203",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Corridor",
+      "to": "CSIT-1-Room204",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Corridor",
+      "to": "CSIT-1-Room205",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Room204",
+      "to": "CSIT-1-Room205",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Corridor",
+      "to": "CSIT-1-Washroom",
+      "weight": 15,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Landing",
+      "to": "CSIT-1-Stairs",
+      "weight": 2,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Landing",
+      "to": "CSIT-1-LiftLanding",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-1-Stairs",
+      "to": "CSIT-2-Landing",
+      "weight": 15,
+      "type": "INDOOR",
+      "isStairs": true
+    },
+    {
+      "from": "CSIT-1-LiftLanding",
+      "to": "CSIT-2-LiftLanding",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Landing",
+      "to": "CSIT-2-Corridor",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-LiftLanding",
+      "to": "CSIT-2-Corridor",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Corridor",
+      "to": "CSIT-2-Room301",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Corridor",
+      "to": "CSIT-2-Room302",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Corridor",
+      "to": "CSIT-2-Room303",
+      "weight": 15,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Room301",
+      "to": "CSIT-2-Room302",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Room302",
+      "to": "CSIT-2-Room303",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Corridor",
+      "to": "CSIT-2-HODOffice",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Corridor",
+      "to": "CSIT-2-FacultyRoom",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-HODOffice",
+      "to": "CSIT-2-FacultyRoom",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Corridor",
+      "to": "CSIT-2-Washroom",
+      "weight": 15,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Landing",
+      "to": "CSIT-2-Stairs",
+      "weight": 2,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Landing",
+      "to": "CSIT-2-LiftLanding",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-2-Stairs",
+      "to": "CSIT-3-Landing",
+      "weight": 15,
+      "type": "INDOOR",
+      "isStairs": true
+    },
+    {
+      "from": "CSIT-2-LiftLanding",
+      "to": "CSIT-3-LiftLanding",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Landing",
+      "to": "CSIT-3-Corridor",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-LiftLanding",
+      "to": "CSIT-3-Corridor",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Corridor",
+      "to": "CSIT-3-Room401",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Corridor",
+      "to": "CSIT-3-Room402",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Corridor",
+      "to": "CSIT-3-Room403",
+      "weight": 15,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Room401",
+      "to": "CSIT-3-Room402",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Room402",
+      "to": "CSIT-3-Room403",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Corridor",
+      "to": "CSIT-3-Room404",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Corridor",
+      "to": "CSIT-3-ConferenceRoom",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Room404",
+      "to": "CSIT-3-ConferenceRoom",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Corridor",
+      "to": "CSIT-3-Washroom",
+      "weight": 15,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Landing",
+      "to": "CSIT-3-Stairs",
+      "weight": 2,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Landing",
+      "to": "CSIT-3-LiftLanding",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-3-Stairs",
+      "to": "CSIT-4-Landing",
+      "weight": 15,
+      "type": "INDOOR",
+      "isStairs": true
+    },
+    {
+      "from": "CSIT-3-LiftLanding",
+      "to": "CSIT-4-LiftLanding",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Landing",
+      "to": "CSIT-4-Corridor",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-LiftLanding",
+      "to": "CSIT-4-Corridor",
+      "weight": 5,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Corridor",
+      "to": "CSIT-4-Room501",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Corridor",
+      "to": "CSIT-4-Room502",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Corridor",
+      "to": "CSIT-4-Room503",
+      "weight": 15,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Room501",
+      "to": "CSIT-4-Room502",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Room502",
+      "to": "CSIT-4-Room503",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Corridor",
+      "to": "CSIT-4-DeanOffice",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Corridor",
+      "to": "CSIT-4-StaffRoom",
+      "weight": 12,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-DeanOffice",
+      "to": "CSIT-4-StaffRoom",
+      "weight": 8,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Corridor",
+      "to": "CSIT-4-Washroom",
+      "weight": 15,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Corridor",
+      "to": "CSIT-4-Terrace",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "CSIT-4-Landing",
+      "to": "CSIT-4-LiftLanding",
+      "weight": 10,
+      "type": "INDOOR"
+    },
+    {
+      "from": "GEU CSIT Building",
+      "to": "CSIT-G-Entrance",
       "weight": 2,
       "type": "INDOOR"
     }
